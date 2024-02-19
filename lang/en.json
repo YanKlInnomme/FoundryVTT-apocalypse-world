@@ -1,0 +1,286 @@
+{
+  "Powered by the Apocalypse": "Powered by the Apocalypse",
+  "TYPES": {
+    "Actor": {
+      "character": "Character",
+      "npc": "NPC",
+      "other": "Other"
+    },
+    "Item": {
+      "move": "Move",
+      "npcMove": "NPC Move",
+      "equipment": "Equipment",
+      "playbook": "Playbook",
+      "tag": "Tag"
+    }
+  },
+  "PBTA": {
+    "ActorType": "Actor Type",
+    "Advantage": "Advantage",
+    "Ask": "Ask",
+    "AskTitle": "{name}: Choose a Stat",
+    "Biography": "Biography",
+    "Category": "Category",
+    "ClearMoves": "Clear Moves",
+    "ChatMessage": {
+      "ShiftUp": "Shift Up",
+      "ShiftDown": "Shift Down"
+    },
+    "Choices": "Choices",
+    "ConditionsApplied": "Conditions Applied:",
+    "Create": "Create",
+    "Description": "Description",
+    "description": "Run games for any PbtA system in FoundryVTT!",
+    "Disadvantage": "Disadvantage",
+    "Equipment": "Equipment",
+    "failure": "Complications (mark XP)",
+    "Formula": "Custom Roll Formula",
+    "Forward": "Forward",
+    "Modifier": "Modifier",
+    "MoveGroup": "Move Group",
+    "MoveGroupHelp": "Multiple moves with the same move-group will be either/or selections when creating a new character using the character builder.",
+    "Moves": "Moves",
+    "Name": "Name",
+    "New": "New",
+    "Normal": "Normal",
+    "NoTemplate": "No Template",
+    "Ongoing": "Ongoing",
+    "partial": "Partial Success",
+    "Playbook": "Playbook",
+    "Prompt": "Prompt",
+    "PromptTitle": "{name}: Enter a Modifier",
+    "Qty": "Qty",
+    "Quantity": "Quantity",
+    "Resource": "Resource",
+    "RequiresMove": "Requires Move",
+    "Roll": "Roll",
+    "RollFormula": "Roll Formula",
+    "RollFormulaOverride": "Roll Formula Override",
+    "RollFormulaHardCap": "Original modifier, {value}, was hard-capped.",
+    "RollLabel": "Roll {label}",
+    "RollMove": "Roll Move",
+    "RollMode": "Roll Mode",
+    "RolledStat": "Stat: {stat}",
+    "SheetClassCharacter": "Default PbtA Character Sheet",
+    "SheetClassNPC": "Default PbtA NPC Sheet",
+    "SheetClassOther": "Default PbtA Other Sheet",
+    "SheetClassItem": "Default PbtA Item Sheet",
+    "success": "Success",
+    "Tags": "Tags",
+    "TagsHelp": "(Use tab to autocomplete, commas to create new tags, and double click a tag to edit it)",
+    "TagsPlaceholder": "Write some tags",
+    "title": "Powered by the Apocalypse",
+    "Type": "Type",
+    "Uses": "Uses",
+    "ViewPlaybook": "View playbook",
+    "Weight": "Weight",
+    "Wt": "Wt",
+    "Common": {
+      "Description": "Description",
+      "Details": "Details",
+      "Name": "Name"
+    },
+    "Dialog": {
+      "Ask1": "Choose a stat for this move.",
+      "ChooseConditions": "Choose all conditional modifiers that apply:",
+      "Prompt1": "Choose the modifier for this move.",
+      "HowManyToken": "How many token would you like to use?",
+      "ErrorAboveMax": "You can't spend more token than you have."
+    },
+    "Messages": {
+      "sheetConfig": {
+        "actorTypeRequired": "actor type is required.",
+        "attribute": "Attribute",
+        "attributeMax": "must include a 'max' property.",
+        "attributeOptions": "must include an 'options' group",
+        "attributeOptionsEmpty": "must include at least one option in the 'options' group.",
+        "attributeType": "must be one of the following types:",
+        "attributeTypeNull": "doesn't have a type (may be options that had the parent renamed).",
+        "equipmentTypes": "is required and must have at least one equipment type.",
+        "groupAttributes": "must be a group of attributes.",
+        "moveTypes": "is required and must have at least one move type.",
+        "noConfig": "No sheet config has been entered.",
+        "overrideRemoved": "Removed PbtA module sheet overrides.",
+        "previousSettingRestored": "Restored previous PbtA sheet settings.",
+        "reset": "Reset sheet config.",
+        "rollFormulaRequired": "'rollFormula' is required.",
+        "rollResultsIncorrect": "'rollResults' entered incorrectly.",
+        "rollResultsRequired": "'rollResults' is required",
+        "statsRequired1": "'stats' are required for",
+        "statsRequired2": "group.",
+        "statString1": "Stat",
+        "statString2": "must be a string, such as \"Cool\"",
+        "tomlError": "There's a syntax error in your TOML configuration on line {line} at column {column}. See console for more details."
+      }
+    },
+    "Migration": {
+      "Begin": "Applying PbtA System Migration for version {version}. Please be patient and do not close your game or shut down your server.",
+      "Complete": "PbtA System Migration to version {version} completed!"
+    },
+    "Settings": {
+      "button": {
+        "help": "System Help & Tutorial"
+      },
+      "stats": {
+        "name": "Stats",
+        "hint": "Enter a comma-separated list of stats/abilities, such as \"Str,Dex,Con,Int,Wis,Cha\""
+      },
+      "AutoCollapseCard": {
+        "name": "Collapse Item Cards' Descriptions in Chat",
+        "hint": "Automatically collapse Item Card descriptions in the Chat Log"
+      },
+      "AutoCollapseCardResult": {
+        "name": "Collapse Item Cards' Results in Chat",
+        "hint": "Automatically collapse Item Card results in the Chat Log"
+      },
+      "advForward": {
+        "name": "Clear ADV/DIS After Rolls",
+        "hint": "If enabled, advantage and disadvantage choices on the character sheet will be reset to normal after each roll (similar to Forward)."
+      },
+      "hideRollFormula": {
+        "name": "Hide roll formula",
+        "hint": "Hides custom roll formula input on character sheets."
+      },
+      "hideForward": {
+        "name": "Hide forward",
+        "hint": "Hides forward input on character sheets."
+      },
+      "hideOngoing": {
+        "name": "Hide ongoing",
+        "hint": "Hides ongoing input on character sheets."
+      },
+      "hideRollMode": {
+        "name": "Hide roll mode",
+        "hint": "Hides roll mode override (normal/advantage/disadvantage) on character sheets."
+      },
+      "hideUses": {
+        "name": "Hide uses",
+        "hint": "Hides uses remaining for each move on the move's summary for characters and NPCs."
+      },
+      "itemIcons": {
+        "name": "Enable Item Icons",
+        "hint": "Enable visual icons for moves, spells, and equipment in character sheets (requires browser reload)."
+      },
+      "sheetConfig": {
+        "label": "Sheet Configuration",
+        "name": "Configure character sheets",
+        "hint": "Choose the data structure for character sheets, such as stats, abilities, and details.",
+        "additions": "Additions:",
+        "confirm": "Confirm",
+        "confirmChanges": "Confirm Changes",
+        "confirmUpdate": "Confirm + Update",
+        "cosmetic": "Cosmetic changes (label or description):",
+        "deletions": "Deletions:",
+        "maxValue": "Max value changed:",
+        "noteCancel": "Cancel and prevent the changes from saving",
+        "noteChangesDetected": "Changes have been detected in one or more of your actor types. Review the changes below, and then choose one of the following:",
+        "noteConfirm": "Confirm without updating existing actors",
+        "noteConfirmUpdate": "Confirm and update existing actors",
+        "noteConfirmUpdateBold": "NOTE: Existing data in deleted attributes will be deleted permanently",
+        "notes2": "You need to enter character sheet data in TOML format. Writing TOML is similar to working with .ini files common in modding settings for PC games.",
+        "notes3": "Read through the documentation linked below before configuring your sheet. You can also head over to the #powered-by-the-apocalypse channel of the main Foundry Virtual Tabletop Discord for questions and assistance.",
+        "options": "List options changed (values will be preserved):",
+        "values": "Value in radio list removed (value will be reset to first element):",
+        "resetDefaults": "Reset Defaults",
+        "saveConfiguration": "Save Configuration",
+        "title": "Sheet Configuration",
+        "type": "Type changed:",
+        "typeReset": "Type changed (attribute will be reset):",
+        "sheetConfigDisabledModule": "Sheet configuration has been disabled due to a module that is providing it."
+      },
+      "tagConfig": {
+        "label": "Tag Configuration",
+        "name": "Configure Tags",
+        "hint": "Choose the tags for character and items.",
+        "Labels": {
+          "Actors": "Actor Tags",
+          "Items": "Item Tags",
+          "General": "General Tags",
+          "Module": "Module Tags",
+          "World": "World Tags",
+          "all": "All {documentType}"
+        },
+        "title": "Configure Tags"
+      }
+    },
+    "Slug": {
+      "label": "PbtA ID",
+      "tooltip": "Regenerate PbtA ID"
+    },
+    "Stat": {
+      "label": "Stat",
+      "labelPl": "Stats",
+      "Shifting": {
+        "fail": "Shifting failed.",
+        "label": "{stat} Shift",
+        "shifts": "{actor} shifts {stats}",
+        "up": "{stat} Shifts Up",
+        "down": "{stat} Shifts Down"
+      }
+    },
+    "Warnings": {
+      "Macro": {
+        "NoActorSelected": "No selected or assigned actor could be found to target with macro.",
+        "MissingTargetWarn": "Your controlled actor '{actor}' does not have an item with name '{name}'.",
+        "MultipleTargetsWarn": "Your controlled actor '{actor}' has more than one item with name '{name}'. The first match will be chosen."
+      },
+      "TagDeprecation": "Tags as items have been deprecated, use the Tag Configuration menu on the game settings to create your tags.",
+      "UnlinkedToken": {
+        "Equipment": "Equipment cannot be rearranged while this token is not linked to an actor.",
+        "Moves": "Moves cannot be rearranged while this token is not linked to an actor."
+      }
+    }
+  },
+  "PBTA_OTHER": "Other",
+  "APOCALYPSEWORLD": {
+    "Links": {
+      "Title": "Apocalypse World · Links",
+      "ShopTitle": "Lumpley Games",
+      "ShopURL": "https://lumpley.games/apocalypseworld/",
+      "GitTitle": "Module deposit",
+      "GitURL": "https://github.com/YanKlInnomme/FoundryVTT-apocalypse-world",
+      "DonationTitle": "Buy me a coffee",
+      "DonationURL": "https://www.buymeacoffee.com/yank"
+    },
+    "Stats": {
+      "Cool": "Cool",
+      "Hard": "Hard",
+      "Hot": "Hot",
+      "Sharp": "Sharp",
+      "Weird": "Weird"
+    },
+    "Harm": {
+      "Label": "Harm",
+      "Description": "When you reach 6 points of damage, you must choose (unless an Angel intervenes) one of the options on the right, then reset the damage to zero.",
+      "Options": {
+        "Label": "Options",
+        "1": "-1·Hard",
+        "2": "+1·Weird (max +3)",
+        "3": "Change to a new playbook",
+        "4": "Die"
+      }
+    },
+    "Special.Label": "Playbook special",
+    "Highlight.Label": "Highlights",
+    "Hold.Label": "Hold",
+    "Armor.Label": "Armor",
+    "XP": {
+      "Label": "XP",
+      "Description": "A player scores an eXPerience point when: he or she rolls a statistic set to high; his or her Hx with someone goes from +4 to +1 or from -3 to 0; an action tells him or her to do so, whether it's one of his or her own actions, someone else's action or a personalized action. When a player completes the fifth eXPerience circle, he or she improves their character and the eXPerience bar is reset to zero."
+    },
+    "Hx.Label": "Hx",
+    "Improvement.Label": "Improvements",
+    "Look.Label": "Look",
+    "MoveTypes": {
+      "Basic": "Basic moves",
+      "Battle": "Battle moves",
+      "RoadWar": "Road-war moves",
+      "Class": "Playbook moves",
+      "Peripheral": "Peripheral moves"
+    },
+    "EquipmentTypes": {
+      "Gear": "Gear",
+      "Barter": "Odds and ends"
+    }
+  }
+}

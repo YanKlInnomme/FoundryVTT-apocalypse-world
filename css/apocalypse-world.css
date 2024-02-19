@@ -1,0 +1,186 @@
+/* ----------------------------------------- */
+/* Root */
+/* ----------------------------------------- */
+:root {
+  --color-text-hyperlink: #1d4204;
+  --color-shadow-primary: #2b6107;
+  --color-shadow-highlight: #1d8d13;
+  --color-border-highlight: #1d8d13;
+  --color-border-highlight-alt: #2b6107;
+  --font-primary: "Hack", sans-serif;
+}
+::-webkit-scrollbar-thumb {
+  background: #2b6107;
+  border: 1px solid var(--color-border-highlight);
+}
+/* ----------------------------------------- */
+/* Fonts */
+/* ----------------------------------------- */
+@font-face {
+  font-family: 'Hack';
+  src: url('fonts/hack-regular.woff2?sha=3114f1256') format('woff2'), url('fonts/hack-regular.woff?sha=3114f1256') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Hack';
+  src: url('fonts/hack-bold.woff2?sha=3114f1256') format('woff2'), url('fonts/hack-bold.woff?sha=3114f1256') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Hack';
+  src: url('fonts/hack-italic.woff2?sha=3114f1256') format('woff2'), url('fonts/hack-italic.woff?sha=3114f1256') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Hack';
+  src: url('fonts/hack-bolditalic.woff2?sha=3114f1256') format('woff2'), url('fonts/hack-bolditalic.woff?sha=3114f1256') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Blockheads";
+  src: url("../fonts/Blockheads.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Personal Services";
+  src: url("../fonts/Personal\ Services.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Dirtyego";
+  src: url("../fonts/dirtyego.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Propagan";
+  src: url("../fonts/propagan.ttf") format("truetype");
+}
+#logo {
+  content: url("../img/logo.webp");
+  width: 150px;
+  height: auto;
+  padding-right: 10px;
+}
+#pause > img {
+  content: url("../img/pause.svg");
+  height: 492px;
+  width: 374px;
+  top: calc(50% - 246px);
+  left: calc(50% - 187px);
+}
+#pause {
+  font-family: "Dirtyego",sans-serif;
+  font-size: 40px;
+  top: 50%;
+  background: none;
+}
+#pause > figcaption {
+  text-shadow: 0px 0px 30px #ffffff;
+  color: #2b6107;
+}
+.pbta.sheet label, .pbta.sheet h1, .pbta.sheet h2 {
+  font-family: "Hack",sans-serif;
+}
+#ui-top.offset {
+  margin-left: -60px;
+}
+
+#chat-controls .control-buttons {
+  flex: 0 0 50px;
+}
+
+button {
+  font-size: var(--font-size-12);
+  line-height: 25px;
+}
+.pbta {
+  font-family: "Hack",sans-serif;
+}
+.pbta.sheet .cell__checkboxes label.flexrow, .pbta.sheet .cell__radio label.flexrow {
+  font-size: 11px;
+}
+.item-icon {
+  border: 0px;
+  background: transparent !important;
+}
+img {
+  border: 0px;
+  background: transparent !important;
+}
+.profile-img {
+  background-color: #989898 !important;
+  position: relative;
+  height: 324px;
+  width: 200px;
+  transform: rotate(-5deg);
+  transition: transform 0.5s;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  float: left;
+  border: 1px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.vtt .sidebar-tab {
+  font-family: "Hack",sans-serif;
+}
+.pbta.sheet .input, .pbta.sheet .input--title {
+  font-family: "Hack",sans-serif;
+}
+.pbta.sheet .cell--image {
+  background: none;
+}
+.pbta.sheet .sheet-attributes .cell--stats .stat {
+  background: #1d8d13;
+}
+.pbta.sheet .sheet-attributes .cell--stats .stat.hover {
+  background: #2b6107;
+}
+.pbta.sheet .sheet-attributes .cell--stats .stat .cell__title {
+  font-family: "Dirtyego",sans-serif;
+  font-size: 50px;
+  font-weight: 100;
+}
+.pbta.sheet .tabs .item {
+  font-family: "Propagan", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+.pbta.sheet .cell__title {
+  font-weight: 100;
+  font-size: 35px;
+  letter-spacing: -0.5px;
+  color: #1d8d13;
+  font-family: "Dirtyego",sans-serif;
+  border-bottom: 2px dotted #1d8d13;
+}
+.item-group-label {
+  font-size: 20px;
+  font-weight: 100;
+  color: black;
+}
+.pbta.sheet .cell--moves .item-icon {
+  background-color: #1d8d13 !important;
+  border: none;
+}
+.pbta.sheet .input--title {
+  font-weight: normal;
+}
+.pbta.sheet .cell input[type=text] {
+  font-size: 18px;
+  font-family: "Hack",sans-serif;
+}
+.pbta.sheet .cell__description--attr {
+  font-size: 11px;
+  margin-top: -3px;
+}
+
+.pbta.sheet .tabs .item.active {
+  color: #1d8d13;
+}
+
+.pbta.sheet .cell__title button {
+  background: #1d8d13;
+  border: none;
+}
+
