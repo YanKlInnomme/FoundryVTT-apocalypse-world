@@ -1,0 +1,23 @@
+{
+  "label": "Scènes",
+  "entries": {
+    "Threat map": {
+      "name": "Carte des menaces",
+      "drawings": {
+        "NORTH": "NORD",
+        "SOUTH": "SUD",
+        "WEST": "OUEST",
+        "EAST": "EST",
+        "UP": "AU-DESSUS",
+        "DOWN": "EN DESSOUS",
+        "OUT": "EXTÉRIEUR",
+        "IN": "INTÉRIEUR",
+        "THE PCS": "LES PJS",
+        "& THEIR RESOURCES": "& LEURS RESSOURCES",
+        "Closer": "Proche",
+        "Farther": "Lointaine",
+        "Notional": "Spéculative"
+      }
+    }
+  }
+}
