@@ -237,8 +237,8 @@
           "4": "Mourir"
         }
       },
-      "Special.Label": "Spécial de l'archétype",
-      "Highlight.Label": "Points forts",
+      "Special.Label": "Spécial",
+      "Highlight.Label": "Point fort",
       "Hold.Label": "Réserve",
       "Armor.Label": "Armure",
       "XP": {

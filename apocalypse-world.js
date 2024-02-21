@@ -1,3 +1,13 @@
+Hooks.on('init', () => {
+  if(typeof Babele !== 'undefined') {
+      Babele.get().register({
+          module: 'apocalypse-world',
+          lang: 'fr',
+          dir: 'compendium'
+      });
+  }
+});
+
 Hooks.on("renderSettings", (app, html) => {
   const links = {
     shop: {
@@ -45,14 +55,18 @@ Hooks.on("renderSettings", (app, html) => {
 
 
 Hooks.once('pbtaSheetConfig', () => {
+  let highlightlabel = game.i18n.localize("APOCALYPSEWORLD.Highlight.Label");
+
   let failurelabel = game.i18n.localize("PBTA.failure");
   let partiallabel = game.i18n.localize("PBTA.partial");
   let successlabel = game.i18n.localize("PBTA.success");
+
   let cool = game.i18n.localize("APOCALYPSEWORLD.Stats.Cool");
   let hard = game.i18n.localize("APOCALYPSEWORLD.Stats.Hard");
   let hot = game.i18n.localize("APOCALYPSEWORLD.Stats.Hot");
   let sharp = game.i18n.localize("APOCALYPSEWORLD.Stats.Sharp");
   let weird = game.i18n.localize("APOCALYPSEWORLD.Stats.Weird");
+  
   let harmlabel = game.i18n.localize("APOCALYPSEWORLD.Harm.Label");
   let harmdescription = game.i18n.localize("APOCALYPSEWORLD.Harm.Description");
   let harmoptionslabel = game.i18n.localize("APOCALYPSEWORLD.Harm.Options.Label");
@@ -60,23 +74,27 @@ Hooks.once('pbtaSheetConfig', () => {
   let harmoption2 = game.i18n.localize("APOCALYPSEWORLD.Harm.Options.2");
   let harmoption3 = game.i18n.localize("APOCALYPSEWORLD.Harm.Options.3");
   let harmoption4 = game.i18n.localize("APOCALYPSEWORLD.Harm.Options.4");
+  
   let speciallabel = game.i18n.localize("APOCALYPSEWORLD.Special.Label");
-  let highlightlabel = game.i18n.localize("APOCALYPSEWORLD.Highlight.Label");
+  let hxlabel = game.i18n.localize("APOCALYPSEWORLD.Hx.Label");
+
   let holdlabel = game.i18n.localize("APOCALYPSEWORLD.Hold.Label");
   let armorlabel = game.i18n.localize("APOCALYPSEWORLD.Armor.Label");
+  
   let xplabel = game.i18n.localize("APOCALYPSEWORLD.XP.Label");
   let xpdescription = game.i18n.localize("APOCALYPSEWORLD.XP.Description");
-  let hxlabel = game.i18n.localize("APOCALYPSEWORLD.Hx.Label");
+  
   let improvementlabel = game.i18n.localize("APOCALYPSEWORLD.Improvement.Label");
   let looklabel = game.i18n.localize("APOCALYPSEWORLD.Look.Label");
+  
   let movetypesbasic = game.i18n.localize("APOCALYPSEWORLD.MoveTypes.Basic");
   let movetypesbattle = game.i18n.localize("APOCALYPSEWORLD.MoveTypes.Battle");
   let movetypesroadwar = game.i18n.localize("APOCALYPSEWORLD.MoveTypes.RoadWar");
   let movetypesclass = game.i18n.localize("APOCALYPSEWORLD.MoveTypes.Class");
   let movetypesperipheral = game.i18n.localize("APOCALYPSEWORLD.MoveTypes.Peripheral");
+  
   let equipmenttypesgear = game.i18n.localize("APOCALYPSEWORLD.EquipmentTypes.Gear");
   let equipmenttypesbarter = game.i18n.localize("APOCALYPSEWORLD.EquipmentTypes.Barter");
-
 
   game.settings.set('pbta', 'sheetConfigOverride', true);
   game.pbta.tagConfigOverride = {
@@ -92,6 +110,10 @@ Hooks.once('pbtaSheetConfig', () => {
   }
   game.pbta.sheetConfig = {
     "rollFormula": "2d6",
+    "statToggle": {
+      "label": highlightlabel,
+      "modifier": 0
+    },
     "rollResults": {
       "failure": {
         "start": null,
@@ -185,35 +207,13 @@ Hooks.once('pbtaSheetConfig', () => {
             "type": "LongText",
             "value": ""
           },
-          "highlight": {
-            "label": highlightlabel,
+          "hx": {
+            "label": hxlabel,
             "description": null,
             "customLabel": false,
             "userLabel": false,
-            "type": "ListMany",
-            "condition": false,
-            "options": {
-              "0": {
-                "label": cool,
-                "value": false
-              },
-              "1": {
-                "label": hard,
-                "value": false
-              },
-              "2": {
-                "label": hot,
-                "value": false
-              },
-              "3": {
-                "label": sharp,
-                "value": false
-              },
-              "4": {
-                "label": weird,
-                "value": false
-              }
-            }
+            "type": "LongText",
+            "value": ""
           },
         },
         "attrLeft": {
@@ -250,14 +250,6 @@ Hooks.once('pbtaSheetConfig', () => {
               false
             ]
           },
-          "hx": {
-            "label": hxlabel,
-            "description": null,
-            "customLabel": false,
-            "userLabel": false,
-            "type": "LongText",
-            "value": ""
-          },
           "improvement": {
             "label": improvementlabel,
             "description": null,
@@ -278,23 +270,28 @@ Hooks.once('pbtaSheetConfig', () => {
         "moveTypes": {
           "basic": {
             "label": movetypesbasic,
-            "moves": []
+            "moves": [],
+            "creation": true
           },
           "battle": {
             "label": movetypesbattle,
-            "moves": []
+            "moves": [],
+            "creation": true
           },
           "road-war": {
             "label": movetypesroadwar,
-            "moves": []
+            "moves": [],
+            "creation": true
           },
           "class": {
             "label": movetypesclass,
-            "moves": []
+            "moves": [],
+            "playbook": true
           },
           "peripheral": {
             "label": movetypesperipheral,
-            "moves": []
+            "moves": [],
+            "creation": true
           }
         },
         "equipmentTypes": {

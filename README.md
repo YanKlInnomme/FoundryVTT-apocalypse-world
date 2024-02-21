@@ -2,6 +2,19 @@
 
 **See below for the English version**
 
-# Module apocalypse-world-pbta pour Foundry VTT
+# Module apocalypse-world pour Foundry VTT
 
-Ce module est une adaptation du jeu de rôle Apocalypse World pour Foundry VTT. Il est basé sur le module/
+Ce module est une adaptation du jeu de rôle Apocalypse World pour Foundry VTT. Il fonctionne de paire avec le système Powered by the Apocalypse (Propulsé par l'Apocalypse) d'Asacolips.
+
+Si vous appréciez le module et que vous avez les moyens de le faire, vous pouvez me soutenir en m'offrant un café sur Buy Me a Coffee (https://www.buymeacoffee.com/yank). Votre geste serait grandement apprécié et contribuerait à soutenir le développement continu. Quoi qu'il en soit, je vous souhaite une expérience enrichissante et divertissante. N'hésitez pas à me contacter pour partager vos commentaires ou signaler tout problème éventuel.
+
+## Prérequis
+
+Afin de fonctionner ce module nécessite l'installations préalable suivante :
+ * Le système 'Powered by the Apocalypse' (pbta)
+
+De plus pour un usage multilingue, il est convient d'installer les modules suivants :
+ * Le module Babele (L'indispensable pour faire de la traduction)
+ * Le module Lib-wrapper (Requis par Babele)
+
+## Licences
