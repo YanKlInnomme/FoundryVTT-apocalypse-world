@@ -1,0 +1,82 @@
+{
+  "label": "Actions en conflit routier",
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "failureLabel": "system.moveResults.failure.label",
+    "failure": "system.moveResults.failure.value",
+    "partialLabel": "system.moveResults.partial.label",
+    "partial": "system.moveResults.partial.value",
+    "successLabel": "system.moveResults.success.label",
+    "success": "system.moveResults.success.value",
+    "choices": "system.choices"
+  },
+  "entries": {
+    "Board a moving vehicle": {
+      "name": "Monter à bord d'un véhicule en mouvement",
+      "description": "<p>Pour <strong>monter &agrave; bord d'un v&eacute;hicule en mouvement</strong>, <em>lancez+t&eacute;nacit&eacute;</em>, moins sa vitesse. Pour <strong>monter &agrave; bord d'un v&eacute;hicule en mouvement &agrave; partir d'un autre</strong>, <em>lancez+t&eacute;nacit&eacute;</em>, moins la diff&eacute;rence entre leurs vitesses.</p>",
+      "failureLabel": "Complications",
+      "failure": "<p>Avec 6-, le ou la MC choisit une option: vous vous accrochez &agrave; la vie, ou vous &ecirc;tes &agrave; terre et bonne chance &agrave; vous.</p>",
+      "partialLabel": "Réussite partielle",
+      "partial": "<p>De 7 &agrave; 9, vous &ecirc;tes &agrave; bord, mais bon sang.</p>",
+      "successLabel": "Réussite",
+      "success": "<p>Avec 10+, vous &ecirc;tes &agrave; bord et cela plut&ocirc;t facilement. Vous obtenez +1 &agrave; votre prochain jet.</p>",
+      "choices": ""
+    },
+    "Deal with bad terrain": {
+      "name": "Faire face à un terrain défavorable",
+      "description": "<p>Lorsque vous devez <strong>faire face &agrave; un terrain d&eacute;favorable</strong>, <em>lancez+t&eacute;nacit&eacute;</em>, plus la tenue de route de votre v&eacute;hicule.</p>",
+      "failureLabel": "Complications",
+      "failure": "<p>Avec 6-, le ou la MC choisit une option pour vous; les autres sont hors de port&eacute;e.</p>\n<ul>\n<li>Vous ralentissez et choisissez votre chemin.</li>\n<li>Vous poussez trop fort et votre v&eacute;hicule en subit les cons&eacute;quences.</li>\n<li>Vous abandonnez et revenez sur vos pas ou essayez de trouver un autre chemin.</li>\n</ul>",
+      "partialLabel": "Réussite partielle",
+      "partial": "<p>De 7 &agrave; 9, choisissez une option:</p>\n<ul>\n<li>Vous ralentissez et choisissez votre chemin.</li>\n<li>Vous poussez trop fort et votre v&eacute;hicule en subit les cons&eacute;quences.</li>\n<li>Vous abandonnez et revenez sur vos pas ou essayez de trouver un autre chemin.</li>\n</ul>",
+      "successLabel": "Réussite",
+      "success": "<p>Avec 10+, vous passez sans encombre.</p>",
+      "choices": ""
+    },
+    "Shoulder another vehicle": {
+      "name": "Bousculer un autre véhicule",
+      "description": "<p>Pour <strong>bousculer un autre v&eacute;hicule</strong>, <em>lancez+t&eacute;nacit&eacute;</em>.</p>",
+      "failureLabel": "Complications",
+      "failure": "<p>Avec 6-, c'est lui qui vous bouscule, vous infligeant les D&eacute;g&acirc;ts-V pr&eacute;vus.</p>",
+      "partialLabel": "Réussite partielle",
+      "partial": "<p>De 7 &agrave; 9, vous heurtez le v&eacute;hicule sur le c&ocirc;t&eacute;, lui infligeant les D&eacute;g&acirc;ts-V pr&eacute;vus.</p>",
+      "successLabel": "Réussite",
+      "success": "<p>Avec 10+, vous heurtez le v&eacute;hicule sur le c&ocirc;t&eacute;, lui infligeant les D&eacute;g&acirc;ts-V pr&eacute;vus. Votre man&#339;uvre est couronn&eacute;e de succ&egrave;s, vous obtenez +1&middot;D&eacute;g&acirc;t-V.</p>",
+      "choices": ""
+    },
+    "Try to outdistance another vehicle": {
+      "name": "Essayer de distancer un autre véhicule",
+      "description": "<p>Lorsque vous <strong>essayez de distancer un autre v&eacute;hicule</strong>, <em>lancez+t&eacute;nacit&eacute;</em>, modifi&eacute;e par la vitesse relative des v&eacute;hicules.</p>",
+      "failureLabel": "Complications",
+      "failure": "<p>Avec 6-, votre adversaire choisit une option pour vous.</p>\n<ul>\n<li>Vous les distancez et vous vous &eacute;chappez, mais votre v&eacute;hicule subit 1&middot;Dommage perforant &agrave; cause de la man&#339;uvre.</li>\n<li>Vous ne parvenez pas &agrave; les semer, mais vous pouvez vous cacher dans un endroit de votre choix.</li>\n<li>Ils vous rattrapent, mais leur v&eacute;hicule subit 1&middot;Dommage perforant dans de la man&#339;uvre.</li>\n</ul>",
+      "partialLabel": "Réussite partielle",
+      "partial": "<p>De 7 &agrave; 9, choisissez une option:</p>\n<ul>\n<li>Vous les distancez et vous vous &eacute;chappez, mais votre v&eacute;hicule subit 1&middot;Dommage perforant dans la man&#339;uvre.</li>\n<li>Vous ne parvenez pas &agrave; les semer, mais vous pouvez vous cacher dans un endroit de votre choix.</li>\n<li>Ils vous rattrapent, mais leur v&eacute;hicule subit 1&middot;Dommage perforant dans de la man&#339;uvre.</li>\n</ul>",
+      "successLabel": "Réussite",
+      "success": "<p>Avec 10+, vous les distancez et vous vous &eacute;loignez.</p>",
+      "choices": ""
+    },
+    "Try to overtake another vehicle": {
+      "name": "Essayer de rattraper un autre véhicule",
+      "description": "<p>Lorsque vous <strong>essayez de rattraper un autre v&eacute;hicule</strong>, <em>lancez+t&eacute;nacit&eacute;</em>, modifi&eacute;e par la vitesse relative des v&eacute;hicules.</p>",
+      "failureLabel": "Complications",
+      "failure": "<p>Avec 6-, votre adversaire choisit une option pour vous.</p>\n<ul>\n<li>Vous les rattrapez, mais votre v&eacute;hicule subit 1&middot;Dommage perforant par la m&ecirc;me occasion.</li>\n<li>Vous ne pouvez pas les rattraper, mais vous pouvez les conduire &agrave; l'endroit de votre choix.</li>\n<li>Ils vous distancent, mais leur v&eacute;hicule subit tout de m&ecirc;me 1&middot;Dommage perforant.</li>\n</ul>",
+      "partialLabel": "Réussite partielle",
+      "partial": "<p>De 7 &agrave; 9, choisissez une option:</p>\n<ul>\n<li>Vous les rattrapez, mais votre v&eacute;hicule subit 1&middot;Dommage perforant par la m&ecirc;me occasion.</li>\n<li>Vous ne pouvez pas les rattraper, mais vous pouvez les conduire &agrave; l'endroit de votre choix.</li>\n<li>Ils vous distancent, mais leur v&eacute;hicule subit tout de m&ecirc;me 1&middot;Dommage perforant.</li>\n</ul>",
+      "successLabel": "Réussite",
+      "success": "<p>Avec 10+, vous les rattrapez et vous vous rapprochez d'eux.</p>",
+      "choices": ""
+    },
+    "V-harm": {
+      "name": "Dégâts-V",
+      "description": "<p>Les <strong>D&eacute;g&acirc;ts-V tels que d&eacute;finis</strong> sont la masse de la voiture attaquante moins la masse ou la maniabilit&eacute; de la voiture d&eacute;fenderesse, au choix du d&eacute;fenseur.</p>\n<p>Lorsque vous subissez des <strong>D&eacute;g&acirc;ts-V</strong>, lancez+d&eacute;g&acirc;ts-V subies.</p>",
+      "failureLabel": "Réussite",
+      "failure": "<p>Avec 6-, vous faites une embard&eacute;e mais vous vous r&eacute;tablissez sans pr&eacute;judice.</p>",
+      "partialLabel": "Réussite partielle",
+      "partial": "<p>De 7 &agrave; 9, vous &ecirc;tes oblig&eacute;&middot;e de faire une embard&eacute;e. Votre adversaire choisit une option:</p>\n<ul>\n<li>Vous c&eacute;dez du terrain.</li>\n<li>On vous fait d&eacute;vier de votre route ou on vous oblige &agrave; en prendre une nouvelle.</li>\n<li>Votre v&eacute;hicule subit 1&middot;Dommage perforant, directement dans la transmission.</li>\n</ul>",
+      "successLabel": "Complications",
+      "success": "<p>Avec 10+, vous perdez le contr&ocirc;le, et votre attaquant choisit une option:</p>\n<ul>\n<li>Vous vous plantez.</li>\n<li>Vous partez en vrille.</li>\n<li>Choisissez deux options dans la liste de 7 &amp;agrave; 9 ci-dessous.</li>\n</ul>\n<ul>\n<li style=\"font-style: italic;\"><em>Vous c&eacute;dez du terrain.</em></li>\n<li style=\"font-style: italic;\"><em>On vous fait d&eacute;vier de votre route ou on vous oblige &agrave; en prendre une nouvelle.</em></li>\n<li style=\"font-style: italic;\"><em>Votre v&eacute;hicule subit 1&middot;Dommage perforant, directement dans la transmission.</em></li>\n</ul>",
+      "choices": ""
+    }
+  }
+}

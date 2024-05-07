@@ -1,0 +1,115 @@
+{
+  "label": "Actions additionnelles",
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "failureLabel": "system.moveResults.failure.label",
+    "failure": "system.moveResults.failure.value",
+    "partialLabel": "system.moveResults.partial.label",
+    "partial": "system.moveResults.partial.value",
+    "successLabel": "system.moveResults.success.label",
+    "success": "system.moveResults.success.value",
+    "choices": "system.choices"
+  },
+  "entries": {
+    "Augury": {
+      "name": "Augure",
+      "description": "<p>Lorsque vous souhaitez <strong>utiliser quelque chose comme augure</strong>, <em>lancez+singularit&eacute;</em>.</p>\n<p>Par d&eacute;faut, l'effet ne durera que tant que vous le maintiendrez, ne touchera que superficiellement le maelstr&ouml;m psychique mondial qui vous est propre et se traduira par des saignements incontr&ocirc;l&eacute;s.</p>",
+      "failureLabel": "Complications",
+      "failure": "<p>Avec 6-, quoi qu'il arrive de mauvais, votre antenne en subit le plus gros.</p>",
+      "partialLabel": "Réussite partielle",
+      "partial": "<p>De 7 &agrave; 9, choisissez une option:</p>\n<ul>\n<li>Atteindre, &agrave; travers le maelstr&ouml;m psychique mondial, quelque chose ou quelqu'un qui y est li&eacute;.</li>\n<li>Isoler et prot&eacute;ger une personne ou une chose du maelstr&ouml;m psychique mondial.</li>\n<li>Isoler et contenir un fragment du maelstr&ouml;m psychique mondial lui-m&ecirc;me.</li>\n<li>Ins&eacute;rer des informations dans le maelstr&ouml;m psychique mondial.</li>\n<li>Ouvrez une fen&ecirc;tre sur le maelstr&ouml;m psychique mondial.</li>\n</ul>\n<p>Et choisissez un modificateur:</p>\n<ul>\n<li>L'effet persistera (pendant un certain temps) sans que vous le mainteniez activement.</li>\n<li>L'effet atteint les profondeurs du maelstr&ouml;m psychique mondial.</li>\n<li>L'effet s'&eacute;tend largement dans le maelstr&ouml;m psychique mondial.</li>\n<li>L'effet est stable et ma&icirc;tris&eacute;, il n'y a pas de saignement.</li>\n</ul>",
+      "successLabel": "Réussite",
+      "success": "<p>Avec 10+, choisissez une option:</p>\n<ul>\n<li>Atteindre, &agrave; travers le maelstr&ouml;m psychique mondial, quelque chose ou quelqu'un qui y est li&eacute;.</li>\n<li>Isoler et prot&eacute;ger une personne ou une chose du maelstr&ouml;m psychique mondial.</li>\n<li>Isoler et contenir un fragment du maelstr&ouml;m psychique mondial lui-m&ecirc;me.</li>\n<li>Ins&eacute;rer des informations dans le maelstr&ouml;m psychique mondial.</li>\n<li>Ouvrez une fen&ecirc;tre sur le maelstr&ouml;m psychique mondial.</li>\n</ul>\n<p>Et choisissez deux modificateurs:</p>\n<ul>\n<li>L'effet persistera (pendant un certain temps) sans que vous le mainteniez activement.</li>\n<li>L'effet atteint les profondeurs du maelstr&ouml;m psychique mondial.</li>\n<li>L'effet s'&eacute;tend largement dans le maelstr&ouml;m psychique mondial.</li>\n<li>L'effet est stable et ma&icirc;tris&eacute;, il n'y a pas de saignement.</li>\n</ul>",
+      "choices": ""
+    },
+    "Change highlighted stats": {
+      "name": "Modifier les statistiques en point fort",
+      "description": "<p><strong>Au d&eacute;but de chaque session</strong>, ou &agrave; la fin si vous avez oubli&eacute;, n'importe qui peut dire, <em>\"h&eacute;, changeons les statistiques en point fort\"</em>. Quand quelqu'un&middot;e le dit, faites-le. Faites &agrave; nouveau le tour de la table, en suivant la m&ecirc;me proc&eacute;dure que celle que vous avez utilis&eacute;e pour mettre les statistiques en point fort au d&eacute;part: le joueur ou la joueuse &agrave; l'indice relationnel le plus &eacute;lev&eacute; choisit une statistique et le ou la MC en choisit une autre.</p>",
+      "failureLabel": "Complications",
+      "failure": "",
+      "partialLabel": "Réussite partielle",
+      "partial": "",
+      "successLabel": "Réussite",
+      "success": "",
+      "choices": ""
+    },
+    "Give 1-barter to someone": {
+      "name": "Donner 1·Troc à quelqu'un·e",
+      "description": "<p>Lorsque vous <strong>donnez 1&middot;Troc &agrave; quelqu'un&middot;e, mais &agrave; certaines conditions</strong>, cela compte comme une manipulation <em>(S&eacute;duire ou manipuler quelqu'un&middot;e)</em> et vous obtenez un 10+ au jet de d&eacute;s, sans effet de levier ni lancer n&eacute;cessaire.</p>",
+      "failureLabel": "Complications",
+      "failure": "",
+      "partialLabel": "Réussite partielle",
+      "partial": "",
+      "successLabel": "Réussite",
+      "success": "",
+      "choices": ""
+    },
+    "Go into a holding’s bustling market": {
+      "name": "Se rendre sur le marché animé d'une localité",
+      "description": "<p>Lorsque vous <strong>vous rendez sur le march&eacute; anim&eacute; d'une localit&eacute;, &agrave; la recherche d'un objet particulier &agrave; acheter</strong>, et qu'il n'est pas &eacute;vident de savoir si vous devriez pouvoir l'obtenir ais&eacute;ment, <em>lancez+esprit</em>.</p>",
+      "failureLabel": "Complications",
+      "failure": "<p>Avec 6-, le ou la MC choisit une option et cela co&ucirc;te 1&middot;Troc de plus.</p>\n<ul>\n<li>L'objet co&ucirc;te 1&middot;Troc de plus que pr&eacute;vu.</li>\n<li>L'objet n'est pas ouvertement en vente, mais vous trouvez quelqu'un&middot;e qui peut vous conduire &agrave; un&middot;e vendeur&middot;euse.</li>\n<li>L'objet n'est pas ouvertement en vente, mais vous trouvez quelqu'un&middot;e qui l'a vendu r&eacute;cemment et qui peut &ecirc;tre dispos&eacute; &agrave; vous pr&eacute;senter &agrave; l'acheteur&middot;euse.</li>\n<li>L'objet n'est pas disponible &agrave; la vente, mais vous trouvez quelque chose de similaire. Est-ce qu'il fera l'affaire?</li>\n</ul>",
+      "partialLabel": "Réussite partielle",
+      "partial": "<p>De 7 &agrave; 9, le ou la MC choisit une option:</p>\n<ul>\n<li>L'objet co&ucirc;te 1&middot;Troc de plus que pr&eacute;vu.</li>\n<li>L'objet n'est pas ouvertement en vente, mais vous trouvez quelqu'un&middot;e qui peut vous conduire &agrave; un&middot;e vendeur&middot;euse.</li>\n<li>L'objet n'est pas ouvertement en vente, mais vous trouvez quelqu'un&middot;e qui l'a vendu r&eacute;cemment et qui peut &ecirc;tre dispos&eacute; &agrave; vous pr&eacute;senter &agrave; l'acheteur&middot;euse.</li>\n<li>L'objet n'est pas disponible &agrave; la vente, mais vous trouvez quelque chose de similaire. Est-ce qu'il fera l'affaire?</li>\n</ul>",
+      "successLabel": "Réussite",
+      "success": "<p>Avec 10+, vous pouvez acheter l'objet sans grande difficult&eacute;.</p>",
+      "choices": ""
+    },
+    "Go to someone for insight": {
+      "name": "S'adresser à quelqu'un·e pour obtenir des conseils",
+      "description": "<p>Lorsque vous pouvez <strong>vous adresser &agrave; quelqu'un&middot;e pour obtenir des conseils</strong>, demandez-lui ce qu'il pense &ecirc;tre la meilleure voie &agrave; suivre et le ou la MC vous donnera l'information. Si vous poursuivez sur cette voie, prenez +1 &agrave; tous les jets que vous faites en ce sens. Si vous poursuivez cette voie mais que vous n'arrivez pas &agrave; vos fins, vous marquez de l'eXP&eacute;rience.</p>",
+      "failureLabel": "Complications",
+      "failure": "",
+      "partialLabel": "Réussite partielle",
+      "partial": "",
+      "successLabel": "Réussite",
+      "success": "",
+      "choices": ""
+    },
+    "Heal another player": {
+      "name": "Soigner un·e autre joueur·euse",
+      "description": "<p>Lorsque vous <strong>soignez les blessures du personnage d'un autre joueur ou joueuse</strong>, vous obtenez +1&middot;Hx avec lui (sur votre feuille) pour chaque segment de blessure que vous soignez. Si cela vous am&egrave;ne &agrave; Hx+4, vous revenez &agrave; Hx+1 comme d'habitude et marquez donc de l'eXP&eacute;rience.</p>",
+      "failureLabel": "Complications",
+      "failure": "",
+      "partialLabel": "Réussite partielle",
+      "partial": "",
+      "successLabel": "Réussite",
+      "success": "",
+      "choices": ""
+    },
+    "Inflict harm on another player": {
+      "name": "Infliger des blessures à un·e autre joueur·euse",
+      "description": "<p>Lorsque vous <strong>infligez des blessures au personnage d'un&middot;e autre joueur&middot;euse</strong>, l'autre personnage obtient +1&middot;Hx avec vous (sur sa feuille) pour chaque segment de blessure que vous infligez. Si cela l'am&egrave;ne &agrave; Hx+4, il revient &agrave; Hx+1 comme d'habitude, et marque donc de l'exp&eacute;rience.</p>",
+      "failureLabel": "Complications",
+      "failure": "",
+      "partialLabel": "Réussite partielle",
+      "partial": "",
+      "successLabel": "Réussite",
+      "success": "",
+      "choices": ""
+    },
+    "Make known that you want a thing": {
+      "name": "Faire savoir que l'on veut quelque chose",
+      "description": "<p>Lorsque vous <strong>faites savoir que vous voulez quelque chose et abandonnez du matos pour acc&eacute;l&eacute;rer son acheminement</strong>, <em>lancez+troc</em> d&eacute;pens&eacute; (max lancez+3). Il doit s'agir d'une chose que l'on peut l&eacute;gitimement obtenir de cette mani&egrave;re.</p>",
+      "failureLabel": "Complications",
+      "failure": "<p>Avec cet &eacute;chec, vous parvenez &agrave; mettre la main dessus, mais dans des conditions particuli&egrave;rement p&eacute;nibles.</p>",
+      "partialLabel": "Réussite partielle",
+      "partial": "<p>De 7 &agrave; 9, vous parvenez &agrave; mettre la main dessus ou sur quelque chose de similaire.</p>",
+      "successLabel": "Réussite",
+      "success": "<p>Avec 10+, vous parvenez &agrave; mettre la main dessus, sans grande difficult&eacute;.</p>",
+      "choices": ""
+    },
+    "Suffer harm": {
+      "name": "Subir un préjudice",
+      "description": "<p>Lorsque vous <strong>souffrez d'un pr&eacute;judice</strong>, <em>lancez+dommages</em> subis (apr&egrave;s l'armure, si vous en portez une).</p>",
+      "failureLabel": "Réussite",
+      "failure": "<p>Avec 6-, le ou la MC peut n&eacute;anmoins choisir une option dans la liste de 7 &agrave; 9 ci-dessous. S'il ou elle le fait, c'est &agrave; la place d'une partie des dommages que vous subissez, donc vous prenez -1&middot;Dommage.</p>\n<ul>\n<li>Vous perdez pied.</li>\n<li>Vous perdez votre emprise sur ce que vous tenez.</li>\n<li>Vous perdez de vue quelqu'un ou quelque chose dont vous vous occupez.</li>\n<li>Vous ne remarquez pas quelque chose d'important.</li>\n</ul>",
+      "partialLabel": "Réussite partielle",
+      "partial": "<p>De 7 &agrave; 9, le ou la MC choisit une option:</p>\n<ul>\n<li>Vous perdez pied.</li>\n<li>Vous perdez votre emprise sur ce que vous tenez.</li>\n<li>Vous perdez de vue quelqu'un ou quelque chose dont vous vous occupez.</li>\n<li>Vous ne remarquez pas quelque chose d'important.</li>\n</ul>",
+      "successLabel": "Complications",
+      "success": "<p>Avec 10+, le ou la MC choisit une option:</p>\n<ul>\n<li>Vous &ecirc;tes hors de combat : inconscient&middot;e, pi&eacute;g&eacute;&middot;e, incoh&eacute;rent&middot;e ou paniqu&eacute;&middot;e.</li>\n<li>C'est pire qu'il ne semblait. Prenez +1&middot;Blessure suppl&eacute;mentaire.</li>\n<li>Choisissez deux options dans la liste de 7 &agrave; 9 ci-dessous.</li>\n</ul>\n<ul>\n<li style=\"font-style: italic;\"><em>Vous perdez pied.</em></li>\n<li style=\"font-style: italic;\"><em>Vous perdez votre emprise sur ce que vous tenez.</em></li>\n<li style=\"font-style: italic;\"><em>Vous perdez de vue quelqu'un ou quelque chose dont vous vous occupez.</em></li>\n<li style=\"font-style: italic;\"><em>Vous ne remarquez pas quelque chose d'important.</em></li>\n</ul>",
+      "choices": ""
+    }
+  }
+}

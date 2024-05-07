@@ -1,0 +1,53 @@
+{
+  "folder": null,
+  "name": "Deal with bad terrain",
+  "type": "move",
+  "img": "modules/apocalypse-world/img/icons/tire-tracks.svg",
+  "system": {
+    "description": "<p>When you have to <strong>deal with bad terrain</strong>, <em>roll+cool</em>, plus your vehicle’s handling.</p>",
+    "moveType": "road-war",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications",
+        "value": "<p>On a miss, the MC chooses 1 for you; the others are impossible.</p>\n<ul>\n<li>You slow down and pick your way forward.</li>\n<li>You push too hard and your vehicle suffers harm as established.</li>\n<li>You ditch out and go back or try to find another way.</li>\n</ul>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": "<p>On a 7&ndash;9, choose 1:</p>\n<ul>\n<li>You slow down and pick your way forward.</li>\n<li>You push too hard and your vehicle suffers harm as established.</li>\n<li>You ditch out and go back or try to find another way.</li>\n</ul>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success",
+        "value": "<p>On a 10+, you fly through untouched.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "prompt",
+    "rollMod": 0,
+    "actorType": "",
+    "choices": ""
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.9.4",
+    "coreVersion": "11.315",
+    "createdTime": 1708432390817,
+    "modifiedTime": 1712043956309,
+    "lastModifiedBy": "p6IgSmDeYI1MXmv6"
+  },
+  "_id": "khVloqKsvbbePRYj",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "p6IgSmDeYI1MXmv6": 3
+  },
+  "_key": "!items!khVloqKsvbbePRYj"
+}

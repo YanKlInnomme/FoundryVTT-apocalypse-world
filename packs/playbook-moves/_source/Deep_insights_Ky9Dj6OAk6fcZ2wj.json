@@ -1,0 +1,51 @@
+{
+  "folder": "OKMm2YcWiMKHkhaW",
+  "name": "Deep insights",
+  "type": "move",
+  "_id": "Ky9Dj6OAk6fcZ2wj",
+  "img": "modules/apocalypse-world/img/icons/idea.svg",
+  "system": {
+    "description": "<p>You get +1weird (weird+3).</p>",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "The Savvyhead",
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "p6IgSmDeYI1MXmv6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.9.4",
+    "coreVersion": "11.315",
+    "createdTime": 1712963044867,
+    "modifiedTime": 1713770683492,
+    "lastModifiedBy": "p6IgSmDeYI1MXmv6"
+  },
+  "_key": "!items!Ky9Dj6OAk6fcZ2wj"
+}

@@ -360,4 +360,13 @@ Hooks.once('pbtaSheetConfig', () => {
       }
     }
   };
+
+  (async () => {
+    let overrideSettings = await game.settings.get('apocalypse-world', 'settings-override');
+
+    if (!overrideSettings) {
+       await game.settings.set('pbta', 'hideRollMode', true);
+       await game.settings.set('pbta', 'hideUses', true);
+    };
+  })();
 });

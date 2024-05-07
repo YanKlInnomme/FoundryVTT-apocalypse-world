@@ -1,0 +1,51 @@
+{
+  "folder": "zLsn3MXbHZkigmYp",
+  "name": "Daredevil",
+  "type": "move",
+  "_id": "1GpKL7Ih1yqz834U",
+  "img": "modules/apocalypse-world/img/icons/plane-pilot.svg",
+  "system": {
+    "description": "<p>If you go straight into danger without hedging your bets, you get +1armor. If you happen to be leading a gang or convoy, it gets +1armor too.</p>",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "The Driver",
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "p6IgSmDeYI1MXmv6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.9.4",
+    "coreVersion": "11.315",
+    "createdTime": 1712837645830,
+    "modifiedTime": 1713770683492,
+    "lastModifiedBy": "p6IgSmDeYI1MXmv6"
+  },
+  "_key": "!items!1GpKL7Ih1yqz834U"
+}

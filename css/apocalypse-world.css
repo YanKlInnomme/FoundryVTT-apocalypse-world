@@ -8,12 +8,15 @@
 	--color-border-highlight: #1d8d13;
 	--color-border-highlight-alt: #2b6107;
 	--font-primary: "Hack", sans-serif;
+	scrollbar-color: #2b6107 #1d8d13;
 }
 
 ::-webkit-scrollbar-thumb {
 	background: #2b6107;
 	border: 1px solid var(--color-border-highlight);
 }
+
+
 /* ----------------------------------------- */
 /* Fonts */
 /* ----------------------------------------- */

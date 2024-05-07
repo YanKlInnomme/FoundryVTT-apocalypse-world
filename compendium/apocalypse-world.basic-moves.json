@@ -1,0 +1,120 @@
+{
+  "label": "Actions de base",
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "failureLabel": "system.moveResults.failure.label",
+    "failure": "system.moveResults.failure.value",
+    "partialLabel": "system.moveResults.partial.label",
+    "partial": "system.moveResults.partial.value",
+    "successLabel": "system.moveResults.success.label",
+    "success": "system.moveResults.success.value",
+    "choices": "system.choices"
+  },
+  "entries": {
+    "Do something under fire": {
+      "name": "Agir sous le feu",
+      "description": "<p>Lorsque vous <strong>faites quelque chose sous le feu</strong> ou que vous vous retranchez pour y r&eacute;sister, <em>lancez+t&eacute;nacit&eacute;</em>.</p>",
+      "failureLabel": "Complications",
+      "failure": "<p>Avec 6-, pr&eacute;parez-vous au pire!</p>",
+      "partialLabel": "Réussite partielle",
+      "partial": "<p>De 7 &agrave; 9, vous flanchez, h&eacute;sitez ou gagnez du temps: le ou la MC vous propose un r&eacute;sultat moins bon, un march&eacute; difficile ou une situation encore plus compliqu&eacute;e.</p>",
+      "successLabel": "Réussite",
+      "success": "<p>Avec 10+, c'est &agrave; vous de jouer.</p>",
+      "choices": ""
+    },
+    "Go aggro on someone": {
+      "name": "Être agressif·ve avec quelqu'un·e",
+      "description": "<p>Quand vous la&nbsp;<strong>jouez agressif&middot;ve avec quelqu'un&middot;e</strong>, soyez clair sur ce que vous voulez qu'il ou elle fasse et sur ce que vous allez lui faire sinon, puis <em>lancez+force</em>.</p>",
+      "failureLabel": "Complications",
+      "failure": "<p>Avec 6-, pr&eacute;parez-vous &agrave; des complications.</p>",
+      "partialLabel": "Réussite partielle",
+      "partial": "<p>De 7 &agrave; 9, la personne agress&eacute;e doit choisir entre:</p>\n<ul>\n<li>R&eacute;sister et vous envoyer vous faire foutre;</li>\n<li>S'&eacute;craser et faire ce que vous voulez;</li>\n<li>D&eacute;gagez de votre chemin;</li>\n<li>Se barricader bien comme il faut;</li>\n<li>Vous filer quelque chose qu'il ou elle pense que vous voulez, ou vous raconter ce que vous voulez entendre.</li>\n<li>Reculer calmement, les mains l&agrave; o&ugrave; vous pouvez les voir.</li>\n</ul>",
+      "successLabel": "Réussite",
+      "success": "<p>Avec 10+, la personne agress&eacute;e doit choisir entre:</p>\n<ul>\n<li>R&eacute;sister et vous envoyer vous faire foutre;</li>\n<li>S'&eacute;craser et faire ce que vous voulez.</li>\n</ul>",
+      "choices": ""
+    },
+    "Help or interfere with someone": {
+      "name": "Aidez ou interférez avec quelqu'un·e",
+      "description": "<p>Lorsque vous <strong>aidez ou interf&eacute;rez avec quelqu'un&middot;e</strong>&nbsp;qui est en train d'effectuer une action, <em>lancez+Hx</em>.</p>",
+      "failureLabel": "Complications",
+      "failure": "<p>Avec 6-, pr&eacute;parez-vous au pire!</p>",
+      "partialLabel": "Réussite partielle",
+      "partial": "<p>De 7 &agrave; 9, selon votre choix, elle bénéficie de +1 (aide) ou de -1 (interf&eacute;rence) &agrave; son lancer.</p>",
+      "successLabel": "Réussite",
+      "success": "<p>Avec 10+, selon votre choix, elle bénéficie de +2 (aide) ou de -2 (interf&eacute;rence) &agrave; son lancer.</p>",
+      "choices": ""
+    },
+    "Lifestyle and gigs": {
+      "name": "Train de vie et contrats",
+      "description": "<p><strong>Au d&eacute;but de la s&eacute;ance</strong>, d&eacute;pensez 1&middot;Troc ou 2 pour justifier votre train de vie. Si vous ne pouvez ou ne voulez pas, dites-le au ou &agrave; la MC et r&eacute;pondez &agrave; ses questions. Si vous avez <strong>besoin de Troc</strong> pendant la session, signalez-le &eacute;galement au ou &agrave; la MC pour qu'il ou elle puisse vous proposer des opportunit&eacute;s de travail.</p>",
+      "failureLabel": "Complications",
+      "failure": "",
+      "partialLabel": "Réussite partielle",
+      "partial": "",
+      "successLabel": "Réussite",
+      "success": "",
+      "choices": ""
+    },
+    "Open your brain to the world’s psychic maelstrom": {
+      "name": "Ouvrir son cerveau au maelström psychique mondial",
+      "description": "<p>Lorsque vous <strong>ouvrez votre cerveau au maelstr&ouml;m psychique mondial</strong>, <em>lancez+singularit&eacute;</em>.</p>",
+      "failureLabel": "Complications",
+      "failure": "<p>Avec 6-, pr&eacute;parez-vous &agrave; des complications.</p>",
+      "partialLabel": "Réussite partielle",
+      "partial": "<p>De 7 &agrave; 9, le ou la MC vous donne une impression &agrave; propos de quelque chose de nouveau et d'int&eacute;ressant sur la situation actuelle et peut vous poser une ou deux questions ; r&eacute;pondez-y. Si vous savez d&eacute;j&agrave; tout ce qu'il y a &agrave; savoir, le ou la MC vous le dira.</p>",
+      "successLabel": "Réussite",
+      "success": "<p>Avec 10+, le ou la MC vous donne de pr&eacute;cieux d&eacute;tails, quelque chose de nouveau et d'int&eacute;ressant sur la situation actuelle et peut vous poser une ou deux questions ; r&eacute;pondez-y.</p>",
+      "choices": ""
+    },
+    "Read a person": {
+      "name": "Lire une personne",
+      "description": "<p>Lorsque vous <strong>essayez de comprendre quelqu'un&middot;e</strong> dans le cadre d'une interaction conflictuelle, <em>lancez+esprit</em>.</p>",
+      "failureLabel": "Complications",
+      "failure": "<p>Avec 6-, vous obtenez 1&middot;R&eacute;serve, mais soyez pr&ecirc;t&middot;e pour le pire. Pendant que vous interagissez avec la personne, vous pouvez d&eacute;penser votre R&eacute;serve pour poser des questions &agrave; son joueur ou &agrave; sa joueuse:</p>",
+      "partialLabel": "Réussite partielle",
+      "partial": "<p>De 7 &agrave; 9, vous obtenez 1&middot;R&eacute;serve. Pendant que vous interagissez avec la personne, vous pouvez d&eacute;penser votre R&eacute;serve pour poser une question &agrave; son joueur ou &agrave; sa joueuse:</p>",
+      "successLabel": "Réussite",
+      "success": "<p>Avec 10+, vous obtenez 3&middot;R&eacute;serve. Pendant que vous interagissez avec la personne, vous pouvez d&eacute;penser votre R&eacute;serve pour poser des questions &agrave; son joueur ou &agrave; sa joueuse, &agrave; raison de 1 pour 1:</p>",
+      "choices": "<ul>\n<li>Est-ce que ton personnage dit la v&eacute;rit&eacute;?</li>\n<li>Qu'est-ce que ton personnage ressent vraiment?</li>\n<li>Quels sont les intentions de ton personnage?</li>\n<li>Qu'est-ce que ton personnage souhaiterait que je fasse?</li>\n<li>Comment pourrais-je amener ton personnage &agrave; &mdash;?</li>\n</ul>"
+    },
+    "Read a sitch": {
+      "name": "Lire une situation compliquée",
+      "description": "<p>Lorsque vous <strong>lisez une situation compliqu&eacute;e</strong>, <em>lancez+esprit</em>. Si vous r&eacute;ussissez, vous pouvez poser des questions au ou &agrave; la MC. Chaque fois que vous agissez en conformit&eacute; avec l'une des r&eacute;ponses du ou de la MC, ajoutez +1 au modificateur situationel.</p>",
+      "failureLabel": "Complications",
+      "failure": "<p>Avec 6-, posez quand m&ecirc;me une question, mais pr&eacute;parez-vous &agrave; des complications.</p>",
+      "partialLabel": "Réussite partielle",
+      "partial": "<p>De 7 &agrave; 9, posez 1 question:</p>",
+      "successLabel": "Réussite",
+      "success": "<p>Avec 10+, posez 3 questions:</p>",
+      "choices": "<ul>\n<li>O&ugrave; se trouve la meilleure issue de secours / entr&eacute;e / sortie?</li>\n<li>Quel&middot;le ennemi&middot;e est le ou la plus vuln&eacute;rable face &agrave; moi?</li>\n<li>Quel&middot;le ennemi&middot;e repr&eacute;sente la plus grande menace?</li>\n<li>&Agrave; quoi dois-je faire attention?</li>\n<li>Quelle est la v&eacute;ritable position de l'ennemi&middot;e?</li>\n<li>Qui est aux commandes ici?</li>\n</ul>"
+    },
+    "Seduce or manipulate someone": {
+      "name": "Séduire ou manipuler quelqu'un·e",
+      "description": "<p>Lorsque vous <strong>essayez de s&eacute;duire, de manipuler, de bluffer, de parler rapidement ou de mentir &agrave; quelqu'un&middot;e</strong>, dites ce que vous voulez qu'il ou elle fasse, donnez-lui une raison puis <em>lancez+d&eacute;sir</em>.</p>",
+      "failureLabel": "Complications",
+      "failure": "<p>Avec 6-, que ce soit pour les PNJ ou les PJ, attendez-vous &agrave; des soucis.</p>",
+      "partialLabel": "Réussite partielle",
+      "partial": "<p><span style=\"text-decoration: underline;\">Pour les PNJ</span> : Il ou elle vous joueront le jeu avec vous, mais auront besoin d'une assurance concr&egrave;te, d'une corroboration ou de preuves d'abord.</p>\n<p><span style=\"text-decoration: underline;\">Pour les PJ</span> : Choisissez une option:</p>\n<ul>\n<li>S'il ou elle est d'accord avec vous, il ou elle marque 1&middot;XP.</li>\n<li>S'il ou elle refuse, vous effacez l'un de leurs points forts pour le reste de la session.</li>\n</ul>",
+      "successLabel": "Réussite",
+      "success": "<p><span style=\"text-decoration: underline;\">Pour les PNJ</span> : Il ou elle vous suivront,&nbsp;&agrave; moins ou jusqu'&agrave; ce qu'un fait ou une action trahisse la raison que vous leur avez donn&eacute;e.</p>\n<p><span style=\"text-decoration: underline;\">Pour les PJ</span> : S'il ou elle est d'accord avec vous, il ou elle marque 1&middot;XP. S'il ou elle refuse, vous effacez l'un de leurs points forts pour le reste de la session.</p>",
+      "choices": ""
+    },
+    "Session end": {
+      "name": "Fin de session",
+      "description": "<p><strong>&Agrave; la fin de chaque session</strong>, choisissez un personnage qui vous conna&icirc;t mieux qu'avant. S'il y en a plusieurs, choisissez-en un &agrave; votre guise. Dites &agrave; ce joueur ou cette joueuse d'ajouter +1 &agrave; l'Historique de connexions (Hx) vous concernant sur sa feuille. Si cela l'am&egrave;ne &agrave; Hx+4, il revient &agrave; Hx+1 (et marque donc de l'exp&eacute;rience). Si personne ne vous conna&icirc;t mieux, choisissez un personnage qui ne vous conna&icirc;t pas aussi bien qu'il le pensait, ou tout autre personnage &agrave; votre guise. Dites &agrave; ce joueur ou cette joueuse de mettre -1 &agrave; l'Historique de connexions (Hx) vous concernant sur sa feuille. Si cela l'am&egrave;ne &agrave; Hx-3, il se r&eacute;initialise &agrave; Hx=0 (et marque donc de l'exp&eacute;rience).</p>",
+      "failureLabel": "Complications",
+      "partialLabel": "Réussite partielle",
+      "successLabel": "Réussite",
+      "choices": ""
+    },
+    "Sucker someone": {
+      "name": "Baiser quelqu'un·e",
+      "description": "<p>Lorsque vous <strong>attaquez quelqu'un&middot;e qui ne se doute de rien ou qui est sans d&eacute;fense</strong>, demandez au ou &agrave; la MC si vous pouvez le ou la rater. Si vous le pouvez, consid&eacute;rez cela comme <em>&Ecirc;tre agressif&middot;ve avec quelqu'un&middot;e</em>, mais votre victime n'a pas la possibilit&eacute; de s'&eacute;craser et faire ce que vous voulez.</span> Si vous ne pouvez pas le ou la rater, vous infligez simplement les dommages tels qu'ils &eacute;taient pr&eacute;vus.</p>",
+      "failureLabel": "Complications",
+      "partialLabel": "Réussite partielle",
+      "successLabel": "Réussite",
+      "choices": ""
+    }
+  }
+}

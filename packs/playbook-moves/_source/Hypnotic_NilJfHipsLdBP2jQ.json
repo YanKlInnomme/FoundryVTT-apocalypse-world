@@ -1,0 +1,51 @@
+{
+  "folder": "EvgfaOwpbLaADXM2",
+  "name": "Hypnotic",
+  "type": "move",
+  "_id": "NilJfHipsLdBP2jQ",
+  "img": "modules/apocalypse-world/img/icons/blindfold.svg",
+  "system": {
+    "description": "<p>When you have time and solitude with someone, they become fixated upon you. <em>Roll+hot</em>.</p>",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications",
+        "value": "<p>On a miss, they hold 2 over you, on the exact same terms.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": "<p>On a 7&ndash;9, hold 2. They can spend your hold, 1 for 1, by:</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success",
+        "value": "<p>On a 10+, hold 3. They can spend your hold, 1 for 1, by:</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "The Skinner",
+    "rollType": "hot",
+    "rollMod": 0,
+    "actorType": "",
+    "choices": "<ul>\n<li>Giving you something you want</li>\n<li>Acting as your eyes and ears</li>\n<li>Fighting to protect you</li>\n<li>Doing something you tell them to</li>\n</ul>\n<p>For NPCs, while you have hold over them they can&rsquo;t act against you.</p>\n<p>For PCs, instead, any time you like you can spend your hold, 1 for 1:</p>\n<ul>\n<li>They distract themselves with the thought of you. They&rsquo;re acting under fire.</li>\n<li>They inspire themselves with the thought of you. They take +1 right now.</li>\n</ul>"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "p6IgSmDeYI1MXmv6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.9.4",
+    "coreVersion": "11.315",
+    "createdTime": 1712964495125,
+    "modifiedTime": 1713770683492,
+    "lastModifiedBy": "p6IgSmDeYI1MXmv6"
+  },
+  "_key": "!items!NilJfHipsLdBP2jQ"
+}

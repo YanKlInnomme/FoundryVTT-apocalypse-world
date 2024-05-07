@@ -1,0 +1,53 @@
+{
+  "folder": null,
+  "name": "V-harm",
+  "type": "move",
+  "img": "modules/apocalypse-world/img/icons/flat-tire.svg",
+  "system": {
+    "description": "<p><strong>V-harm as established</strong> is the attacking car’s massive minus the defending car’s massive or handling, defender’s choice.</p>\n<p>When you suffer <strong>v-harm</strong>, roll+v-harm suffered.</p>",
+    "moveType": "",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications",
+        "value": "<p>On a miss, you swerve but recover without disadvantage.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": "<p>On a 7&ndash;9, you&rsquo;re forced to swerve. Your attacker chooses 1:</p>\n<ul>\n<li>You give ground.</li>\n<li>You&rsquo;re driven off course, or forced onto a new course.</li>\n<li>Your car takes 1&middot;harm ap, right in the transmission.</li>\n</ul>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success",
+        "value": "<p>On a 10+, you lose control, and your attacker chooses 1:</p>\n<ul>\n<li>You crash.</li>\n<li>You spin out.</li>\n<li>Choose 2 from the 7&ndash;9 list below.</li>\n</ul>\n<ul>\n<li style=\"font-style: italic;\"><em>You give ground.</em></li>\n<li style=\"font-style: italic;\"><em>You&rsquo;re driven off course, or forced onto a new course.</em></li>\n<li style=\"font-style: italic;\"><em>Your car takes 1&middot;harm ap, right in the transmission.</em></li>\n</ul>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "",
+    "choices": ""
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.9.4",
+    "coreVersion": "11.315",
+    "createdTime": 1708433520174,
+    "modifiedTime": 1712043956309,
+    "lastModifiedBy": "p6IgSmDeYI1MXmv6"
+  },
+  "_id": "ieYN1qSwgCgv8zfu",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "p6IgSmDeYI1MXmv6": 3
+  },
+  "_key": "!items!ieYN1qSwgCgv8zfu"
+}

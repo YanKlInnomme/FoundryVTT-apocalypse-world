@@ -33,7 +33,7 @@
     "description": "Run games for any PbtA system in FoundryVTT!",
     "Disadvantage": "Disadvantage",
     "Equipment": "Equipment",
-    "failure": "Complications (mark XP)",
+    "failure": "Complications",
     "Formula": "Custom Roll Formula",
     "Forward": "Forward",
     "Modifier": "Modifier",

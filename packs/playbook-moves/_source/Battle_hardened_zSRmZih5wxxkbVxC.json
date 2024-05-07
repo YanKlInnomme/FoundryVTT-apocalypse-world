@@ -1,0 +1,51 @@
+{
+  "folder": "43pLdvSCLcFF3VCZ",
+  "name": "Battle-hardened",
+  "type": "move",
+  "_id": "zSRmZih5wxxkbVxC",
+  "img": "modules/apocalypse-world/img/icons/headband-knot.svg",
+  "system": {
+    "description": "<p>When you <strong>act under fire</strong>, or when you stand overwatch, <em>roll+hard</em> instead of roll+cool.</p>",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications",
+        "value": "<p>On a miss, be prepared for the worst.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": "<p>On a 7&ndash;9, you flinch, hesitate, or stall : the MC can offer you a worse outcome, a hard bargain, or an ugly choice.</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success",
+        "value": "<p>On a 10+, you do it.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "The Gunlugger",
+    "rollType": "hard",
+    "rollMod": 0,
+    "actorType": "",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "p6IgSmDeYI1MXmv6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.9.4",
+    "coreVersion": "11.315",
+    "createdTime": 1712873942287,
+    "modifiedTime": 1713770683492,
+    "lastModifiedBy": "p6IgSmDeYI1MXmv6"
+  },
+  "_key": "!items!zSRmZih5wxxkbVxC"
+}

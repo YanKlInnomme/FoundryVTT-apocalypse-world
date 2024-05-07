@@ -1,0 +1,51 @@
+{
+  "folder": "OKMm2YcWiMKHkhaW",
+  "name": "Things speak",
+  "type": "move",
+  "_id": "Zv68s4NBU0fp6RYi",
+  "img": "modules/apocalypse-world/img/icons/boombox.svg",
+  "system": {
+    "description": "<p>Whenever you handle or examine something interesting, <em>roll+weird</em>.</p>",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications",
+        "value": "<p>Treat a miss as though you&rsquo;ve opened your brain to the world&rsquo;s psychic maelstrom and missed the roll.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": "<p>On a hit, you can ask the MC questions. On a 7&ndash;9, ask 1.</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success",
+        "value": "<p>On a hit, you can ask the MC questions. On a 10+, ask 3.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "The Savvyhead",
+    "rollType": "weird",
+    "rollMod": 0,
+    "actorType": "",
+    "choices": "<ul>\n<li>Who handled this last before me?</li>\n<li>Who made this?</li>\n<li>What strong emotions have been most recently nearby this?</li>\n<li>What words have been said most recently nearby this?</li>\n<li>What has been done most recently with this, or to this?</li>\n<li>What&rsquo;s wrong with this, and how might I fix it?</li>\n</ul>"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "p6IgSmDeYI1MXmv6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.9.4",
+    "coreVersion": "11.315",
+    "createdTime": 1712928746053,
+    "modifiedTime": 1713770683492,
+    "lastModifiedBy": "p6IgSmDeYI1MXmv6"
+  },
+  "_key": "!items!Zv68s4NBU0fp6RYi"
+}

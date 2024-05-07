@@ -1,0 +1,51 @@
+{
+  "folder": "zLsn3MXbHZkigmYp",
+  "name": "Reputation",
+  "type": "move",
+  "_id": "i2dfa6TPNvhcbhkI",
+  "img": "modules/apocalypse-world/img/icons/trophy-cup.svg",
+  "system": {
+    "description": "<p>When you meet someone important (your call), <em>roll+cool</em>.</p>",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications",
+        "value": "<p>On a miss, they&rsquo;ve heard of you, but the MC decides what they&rsquo;ve heard.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": "<p>On a hit, they&rsquo;ve heard of you, and you say what they&rsquo;ve heard; the MC has them respond accordingly.</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success",
+        "value": "<p>On a hit, they&rsquo;ve heard of you, and you say what they&rsquo;ve heard; the MC has them respond accordingly.</p>\n<p>On a 10+, you take +1forward for dealing with them as well.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "The Driver",
+    "rollType": "cool",
+    "rollMod": 0,
+    "actorType": "",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "p6IgSmDeYI1MXmv6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.9.4",
+    "coreVersion": "11.315",
+    "createdTime": 1712837277968,
+    "modifiedTime": 1713770683492,
+    "lastModifiedBy": "p6IgSmDeYI1MXmv6"
+  },
+  "_key": "!items!i2dfa6TPNvhcbhkI"
+}

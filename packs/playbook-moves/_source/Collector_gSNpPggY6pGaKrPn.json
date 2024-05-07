@@ -1,0 +1,51 @@
+{
+  "folder": "zLsn3MXbHZkigmYp",
+  "name": "Collector",
+  "type": "move",
+  "_id": "gSNpPggY6pGaKrPn",
+  "img": "modules/apocalypse-world/img/icons/car-key.svg",
+  "system": {
+    "description": "<p>You get 2 additional cars (you detail).</p>",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "The Driver",
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "p6IgSmDeYI1MXmv6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.9.4",
+    "coreVersion": "11.315",
+    "createdTime": 1712837759368,
+    "modifiedTime": 1713770683492,
+    "lastModifiedBy": "p6IgSmDeYI1MXmv6"
+  },
+  "_key": "!items!gSNpPggY6pGaKrPn"
+}

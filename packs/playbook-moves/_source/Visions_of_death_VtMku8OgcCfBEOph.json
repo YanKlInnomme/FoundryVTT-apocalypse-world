@@ -1,0 +1,51 @@
+{
+  "folder": "YmNcq6wqBzoN1iqm",
+  "name": "Visions of death",
+  "type": "move",
+  "_id": "VtMku8OgcCfBEOph",
+  "img": "modules/apocalypse-world/img/icons/half-dead.svg",
+  "system": {
+    "description": "<p>When you go into battle, <em>roll+weird</em>.</p>",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications",
+        "value": "<p>On a miss, you foresee your own death, and accordingly take -1 throughout the battle.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": "<p>On a 7&ndash;9, name one person who&rsquo;ll die OR one person who&rsquo;ll live. Don&rsquo;t name a player&rsquo;s character; name NPCs only.</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success",
+        "value": "<p>On a 10+, name one person who&rsquo;ll die and one who&rsquo;ll live.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "The Battlebabe",
+    "rollType": "weird",
+    "rollMod": 0,
+    "actorType": "",
+    "choices": "<p>The MC will make your vision come true, if it&rsquo;s even remotely possible.</p>"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "p6IgSmDeYI1MXmv6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.9.4",
+    "coreVersion": "11.315",
+    "createdTime": 1712581819409,
+    "modifiedTime": 1713770683492,
+    "lastModifiedBy": "p6IgSmDeYI1MXmv6"
+  },
+  "_key": "!items!VtMku8OgcCfBEOph"
+}

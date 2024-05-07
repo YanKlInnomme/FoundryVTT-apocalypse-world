@@ -1,0 +1,51 @@
+{
+  "folder": "43pLdvSCLcFF3VCZ",
+  "name": "Battlefield instincts",
+  "type": "move",
+  "_id": "i2VgTSC812yx1yyJ",
+  "img": "modules/apocalypse-world/img/icons/war-bonnet.svg",
+  "system": {
+    "description": "<p>When you <strong>open your brain to the world’s psychic maelstrom</strong>, <em>roll+hard</em> instead of roll+weird, but only in battle.</p>",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications",
+        "value": "<p>On a miss, be prepared for the worst.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": "<p>On a 7&ndash;9, the MC gives you an impression. If you already know all there is to know, the MC will tell you that.</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success",
+        "value": "<p>On a 10+, the MC gives you good detail.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "The Gunlugger",
+    "rollType": "hard",
+    "rollMod": 0,
+    "actorType": "",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "p6IgSmDeYI1MXmv6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.9.4",
+    "coreVersion": "11.315",
+    "createdTime": 1712874475771,
+    "modifiedTime": 1713770683492,
+    "lastModifiedBy": "p6IgSmDeYI1MXmv6"
+  },
+  "_key": "!items!i2VgTSC812yx1yyJ"
+}

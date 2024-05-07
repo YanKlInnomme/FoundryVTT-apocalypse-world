@@ -1,0 +1,51 @@
+{
+  "folder": "EzipKeL35SuALjaF",
+  "name": "Everybody eats, even that guy",
+  "type": "move",
+  "_id": "OxeR9WoeER88W1Ls",
+  "img": "modules/apocalypse-world/img/icons/apple-core.svg",
+  "system": {
+    "description": "<p>When you want to know something about someone important (your call), <em>roll+hot</em>.</p>",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications",
+        "value": "<p>On a miss, ask 1 anyway, but they hear about your interest in them.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": "<p>On a hit, you can ask the MC questions. On a 7-9, ask 1.</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success",
+        "value": "<p>On a hit, you can ask the MC questions. On a 10+, ask 3.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "The Maestro D’",
+    "rollType": "hot",
+    "rollMod": 0,
+    "actorType": "",
+    "choices": "<ul>\n<li>How are they doing? What&rsquo;s up with them?</li>\n<li>What or who do they love best?</li>\n<li>Who do they know, like and/or trust?</li>\n<li>When next should I expect to see them?</li>\n<li>How could I get to them, physically or emotionally?</li>\n</ul>"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "p6IgSmDeYI1MXmv6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.9.4",
+    "coreVersion": "11.315",
+    "createdTime": 1712927701802,
+    "modifiedTime": 1713770683492,
+    "lastModifiedBy": "p6IgSmDeYI1MXmv6"
+  },
+  "_key": "!items!OxeR9WoeER88W1Ls"
+}

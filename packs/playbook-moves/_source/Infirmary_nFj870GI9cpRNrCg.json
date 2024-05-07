@@ -1,0 +1,51 @@
+{
+  "folder": "mG02sYunXUEuwJwu",
+  "name": "Infirmary",
+  "type": "move",
+  "_id": "nFj870GI9cpRNrCg",
+  "img": "modules/apocalypse-world/img/icons/hospital.svg",
+  "system": {
+    "description": "<p>You get an infirmary, a workspace with life support, a drug lab and a crew of 2 (Shigusa &amp; Mox, maybe). Get patients into it and you can work on them like a savvyhead on tech (cf).</p>",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": ""
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "The Angel",
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "p6IgSmDeYI1MXmv6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.9.4",
+    "coreVersion": "11.315",
+    "createdTime": 1712794187233,
+    "modifiedTime": 1713770683492,
+    "lastModifiedBy": "p6IgSmDeYI1MXmv6"
+  },
+  "_key": "!items!nFj870GI9cpRNrCg"
+}

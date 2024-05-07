@@ -1,0 +1,51 @@
+{
+  "folder": "mG02sYunXUEuwJwu",
+  "name": "Healing touch",
+  "type": "move",
+  "_id": "fDOjR4pL7QWtlHs4",
+  "img": "modules/apocalypse-world/img/icons/forearm.svg",
+  "system": {
+    "description": "<p>When you put your hands skin-to-skin on a wounded person and open your brain to them, <em>roll+weird</em>.</p>",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications",
+        "value": "<p>On a miss: first, you don&rsquo;t heal them.</p>\n<p>Second, you&rsquo;ve opened both your brain and theirs to the world&rsquo;s psychic maelstrom, without protection or preparation. For you, and for your patient if your patient&rsquo;s a fellow player&rsquo;s character, treat it as though you&rsquo;ve made that move and missed the roll. For NPC patients, their experience and fate is up to the MC.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": "<p>On a 7&ndash;9, heal 1 segment, but you&rsquo;re acting under fire from your patient&rsquo;s brain.</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success",
+        "value": "<p>On a 10+, heal 1 segment.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "The Angel",
+    "rollType": "weird",
+    "rollMod": 0,
+    "actorType": "",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "p6IgSmDeYI1MXmv6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.9.4",
+    "coreVersion": "11.315",
+    "createdTime": 1712794990925,
+    "modifiedTime": 1713770683492,
+    "lastModifiedBy": "p6IgSmDeYI1MXmv6"
+  },
+  "_key": "!items!fDOjR4pL7QWtlHs4"
+}

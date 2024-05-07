@@ -60,11 +60,18 @@
       "path": "packs/battle-moves"
     },
     {
-      "label": "peripheral moves",
+      "label": "Peripheral moves",
       "name": "peripheral-moves",
       "type": "Item",
       "system": "pbta",
       "path": "packs/peripheral-moves"
+    },
+    {
+      "label": "Playbook moves",
+      "name": "playbook-moves",
+      "type": "Item",
+      "system": "pbta",
+      "path": "packs/playbook-moves"
     },
     {
       "label": "Playbooks",

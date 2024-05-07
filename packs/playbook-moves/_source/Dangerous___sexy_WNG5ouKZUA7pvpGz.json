@@ -1,0 +1,51 @@
+{
+  "folder": "YmNcq6wqBzoN1iqm",
+  "name": "Dangerous & sexy",
+  "type": "move",
+  "_id": "WNG5ouKZUA7pvpGz",
+  "img": "modules/apocalypse-world/img/icons/smitten.svg",
+  "system": {
+    "description": "<p>When you enter into a charged situation, <em>roll+hot</em>.</p>",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications",
+        "value": "<p>On a miss, your enemies identify you immediately as their foremost threat.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": "<p>On a 7&ndash;9, hold 1.</p>\n<p>Spend your hold 1 for 1 to make eye contact with an NPC present, who freezes or flinches and can&rsquo;t take action until you break it off.</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success",
+        "value": "<p>On a 10+, hold 2.</p>\n<p>Spend your hold 1 for 1 to make eye contact with an NPC present, who freezes or flinches and can&rsquo;t take action until you break it off.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "The Battlebabe",
+    "rollType": "hot",
+    "rollMod": 0,
+    "actorType": "",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "p6IgSmDeYI1MXmv6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.9.4",
+    "coreVersion": "11.315",
+    "createdTime": 1712579734295,
+    "modifiedTime": 1713770683492,
+    "lastModifiedBy": "p6IgSmDeYI1MXmv6"
+  },
+  "_key": "!items!WNG5ouKZUA7pvpGz"
+}

@@ -1,0 +1,53 @@
+{
+  "folder": null,
+  "name": "Try to outdistance another vehicle",
+  "type": "move",
+  "img": "modules/apocalypse-world/img/icons/road.svg",
+  "system": {
+    "description": "<p>When you <strong>try to outdistance another vehicle</strong>, <em>roll+cool</em>, modifed by the vehicles’ relative speed.</p>",
+    "moveType": "road-war",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications",
+        "value": "<p>On a miss, your counterpart chooses 1 against you.</p>\n<ul>\n<li>You outdistance them and break away, but your vehicle suffers 1-harm ap from the&nbsp;strain.</li>\n<li>You don&rsquo;t escape them, but you can go to ground in a place you choose.</li>\n<li>They overtake you, but their vehicle suffers 1&middot;Harm ap from the strain.</li>\n</ul>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": "<p>On a 7&ndash;9, choose 1:</p>\n<ul>\n<li>You outdistance them and break away, but your vehicle suffers 1-harm ap from the&nbsp;strain.</li>\n<li>You don&rsquo;t escape them, but you can go to ground in a place you choose.</li>\n<li>They overtake you, but their vehicle suffers 1&middot;Harm ap from the strain.</li>\n</ul>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success",
+        "value": "<p>On a 10+, you outdistance them and break away.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "prompt",
+    "rollMod": 0,
+    "actorType": "",
+    "choices": ""
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.9.4",
+    "coreVersion": "11.315",
+    "createdTime": 1708422356326,
+    "modifiedTime": 1712043956309,
+    "lastModifiedBy": "p6IgSmDeYI1MXmv6"
+  },
+  "_id": "bqkMNCtV90CdD1zk",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "p6IgSmDeYI1MXmv6": 3
+  },
+  "_key": "!items!bqkMNCtV90CdD1zk"
+}

@@ -1,0 +1,126 @@
+{
+  "label": "Actions de combat",
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "failureLabel": "system.moveResults.failure.label",
+    "failure": "system.moveResults.failure.value",
+    "partialLabel": "system.moveResults.partial.label",
+    "partial": "system.moveResults.partial.value",
+    "successLabel": "system.moveResults.success.label",
+    "success": "system.moveResults.success.value",
+    "choices": "system.choices"
+  },
+  "entries": {
+    "Exchange harm": {
+      "name": "Échange de coups",
+      "description": "<p>Lorsque vous <strong>&eacute;changez des coups</strong>, les deux parties infligent et subissent simultan&eacute;ment des pr&eacute;judices tels qu'&eacute;tablis:</p>\n<ul>\n<li>Vous infligez un nombre de points de d&eacute;g&acirc;ts &eacute;gal &agrave; la valeur de d&eacute;g&acirc;ts de votre arme, moins la valeur d'armure de votre ennemi.</li>\n<li>Vous subissez une blessure &eacute;gale &agrave; la valeur de d&eacute;g&acirc;ts de l'arme de votre ennemi, moins la valeur d'armure de votre propre armure.</li>\n</ul>",
+      "failureLabel": "",
+      "failure": "",
+      "partialLabel": "",
+      "partial": "",
+      "successLabel": "",
+      "success": "",
+      "choices": ""
+    },
+    "Keep an eye out": {
+      "name": "Garder l'œil ouvert",
+      "description": "<p>Lorsque vous restez attentif&middot;ve &agrave; ce qui se passe, <em>lancez+esprit</em>.</p>",
+      "failureLabel": "Complications",
+      "failure": "<p>Avec 6-, vous obtenez 1&middot;R&eacute;serve. Pendant la bataille, d&eacute;pensez votre R&eacute;serve, 1 pour 1, en demandant au ou &agrave; la MC ce qui va se passer et choisissez:</p>",
+      "partialLabel": "Réussite partielle",
+      "partial": "<p>De 7 &agrave; 9, vous obtenez 2&middot;R&eacute;serves. Pendant la bataille, d&eacute;pensez votre R&eacute;serve, 1 pour 1, en demandant au ou &agrave; la MC ce qui va se passer et choisissez:</p>",
+      "successLabel": "Réussite",
+      "success": "<p>Avec 10+, vous obtenez 3&middot;R&eacute;serves. Pendant la bataille, d&eacute;pensez votre R&eacute;serve, 1 pour 1, en demandant au ou &agrave; la MC ce qui va se passer et choisissez:</p>",
+      "choices": "<ul>\n<li>Dirigez l'attention d'un&middot;e alli&eacute;&middot;e PJ vers un&middot;e ennemi&middot;e. S'il ou elle effectue une action de combat contre cet&middot;te ennemi&middot;e, il ou elle obtient +1 &agrave; l'action choisie.</li>\n<li>Donnez un ordre, une instruction ou une suggestion &agrave; un&middot;e alli&eacute;&middot;e PJ. Si l'alli&eacute;&middot;e agit en ce sens, il ou elle obtient +1 &agrave; toutes ses actions.</li>\n<li>Dirigez l'attention d'un&middot;e alli&eacute;&middot;e sur un&middot;e ennemi&middot;e. S'il ou elle attaque cet&middot;te ennemi&middot;e, ajoutez +1&middot;Blessure &agrave; son assaut.</li>\n<li>Attire l'attention d'un&middot;e alli&eacute;&middot;e sur un danger. Il ou elle subit -1&middot;Blessure &agrave; cause de ce danger.</li>\n</ul>"
+    },
+    "Lay down fire": {
+      "name": "Ouvrir le feu",
+      "description": "<p>Lorsque vous <strong>ouvrez le feu</strong>, <em>lancez+force</em>.</p>",
+      "failureLabel": "Complications",
+      "failure": "<p>Avec 6-, choisissez une option:</p>",
+      "partialLabel": "Réussite partielle",
+      "partial": "<p>De 7 &agrave; 9, choisissez deux options:</p>",
+      "successLabel": "Réussite",
+      "success": "<p>Avec 10+, choisissez trois options:</p>",
+      "choices": "<ul>\n<li>Vous assurez un tir de couverture, permettant &agrave; un autre personnage de se d&eacute;placer ou d'agir librement.</li>\n<li>Vous fournissez un tir de soutien, donnant &agrave; un autre PJ un b&eacute;n&eacute;fice de +1 &agrave; sa prochaine action.</li>\n<li>Vous effectuez des tirs de suppression, emp&ecirc;chant un autre personnage de se d&eacute;placer ou d'agir librement. (S'il s'agit d'un PJ, il peut essayer d'agir sous le feu.)</li>\n<li>Vous tirez au bon moment, infligeant des blessures (avec un malus &agrave; -1&middot;Blessure) &agrave; un&middot;e ennemi&middot;e &agrave; votre port&eacute;e.</li>\n</ul>"
+    },
+    "Not certain whether you’re": {
+      "name": "Statut incertain",
+      "description": "<p>Lorsque <strong>vous ne savez pas si vous &ecirc;tes le chat ou la souris</strong>, <em>lancez+esprit</em>.</p>",
+      "failureLabel": "Complications",
+      "failure": "<p>Sur cet &eacute;chec, vous &ecirc;tes la souris.</p>",
+      "partialLabel": "Réussite partielle",
+      "partial": "<p>De 7 &agrave; 9, c'est vous qui d&eacute;cidez qui vous &ecirc;tes.</p>",
+      "successLabel": "Réussite",
+      "success": "<p>Avec 10+, vous d&eacute;cidez qui vous &ecirc;tes et vous b&eacute;n&eacute;ficiez de +1 &agrave; votre prochaine action.</p>",
+      "choices": ""
+    },
+    "Seize by force": {
+      "name": "S'emparer de force",
+      "description": "<p>Pour vous <strong>emparer de quelque chose par la force</strong>, &eacute;changez des coups, mais d'abord <em>lancez+force</em>.</p>\n<p> </p>\n<p><span style=\"text-decoration:underline\">Variantes</span></p>\n<p>Pour <strong>assaillir une position s&ucirc;re</strong>, lancez s'emparer de force, mais au lieu de choisir d'en prendre d&eacute;finitivement le contr&ocirc;le, vous pouvez choisir de vous frayer un chemin jusqu'&agrave; la position ennemie.</p>\n<p>Pour <strong>garder quelque chose qui vous appartient</strong>, lancez s'emparer de force, mais au lieu de choisir d'en prendre d&eacute;finitivement le contr&ocirc;le, vous pouvez choisir d'en garder le contr&ocirc;le d&eacute;finitivement.</p>\n<p>Pour <strong>combattre pour vous lib&eacute;rer</strong>, lancez s'emparer de force, mais au lieu de choisir d'en prendre d&eacute;finitivement le contr&ocirc;le, vous pouvez choisir de vous lib&eacute;rer et de vous enfuir.</p>\n<p>Pour <strong>d&eacute;fendre quelqu'un contre une attaque</strong>, lancez s'emparer de force, mais au lieu de choisir d'en prendre d&eacute;finitivement le contr&ocirc;le, vous pouvez choisir de le prot&eacute;ger.</p>",
+      "failureLabel": "Complications",
+      "failure": "<p>Avec 6-, choisissez une option:</p>",
+      "partialLabel": "Réussite partielle",
+      "partial": "<p>De 7 &agrave; 9, choisissez deux options:</p>",
+      "successLabel": "Réussite",
+      "success": "<p>Avec 10+, choisissez trois options:</p>",
+      "choices": "<ul>\n<li>Vous infligez de terribles blessures (+1&amp;middot;Blessure).</li>\n<li>Vous ne subissez que peu de dommages (-1&amp;middot;Blessure).</li>\n<li>Vous en prenez le contr&ocirc;le de mani&egrave;re d&eacute;finitive et ind&eacute;niable.</li>\n<li>Vous impressionnez, consternez ou effrayez votre ennemi&middot;e.</li>\n</ul>"
+    },
+    "Single combat": {
+      "name": "Duel",
+      "description": "<p>Lorsque vous <strong>faites un combat &agrave; un contre un</strong>, pas de quartier, &eacute;changez des coups, mais d'abord <em>lancez+force</em>.</p>\n<p>Apr&egrave;s avoir &eacute;chang&eacute; des coups, pr&eacute;f&eacute;rez-vous mettre fin au combat maintenant ou continuer &agrave; vous battre ? Si vous pr&eacute;f&eacute;rez tous les deux mettre fin au combat maintenant, il se termine. Si vous pr&eacute;f&eacute;rez tous les deux continuer &agrave; vous battre, le combat se poursuit et vous devez recommencer. Si l'un d'entre vous pr&eacute;f&egrave;re mettre fin au combat et que l'autre pr&eacute;f&egrave;re continuer &agrave; se battre, le premier doit choisir : fuir, se plier &agrave; la merci du second ou continuer &agrave; se battre.</p>",
+      "failureLabel": "Complications",
+      "failure": "<p>Avec 6-, votre adversaire choisit une option contre vous:</p>",
+      "partialLabel": "Réussite partielle",
+      "partial": "<p>De 7 &agrave; 9, choisissez une option:</p>",
+      "successLabel": "Réussite",
+      "success": "<p>Avec 10+, vous b&eacute;n&eacute;ficiez des deux options:</p>",
+      "choices": "<ul>\n<li>Vous infligez de terribles blessures (+1&amp;middot;Blessure).</li>\n<li>Vous ne subissez que peu de dommages (-1&amp;middot;Blessure).</li>\n</ul>"
+    },
+    "Stand overwatch": {
+      "name": "Assurer la protection",
+      "description": "<p>Lorsque vous <strong>veillez sur un&middot;e alli&eacute;&middot;e</strong>, <em>lancez+t&eacute;nacit&eacute;</em>.</p>",
+      "failureLabel": "Complications",
+      "failure": "<p>Avec 6-, vous pouvez avertir votre alli&eacute;&middot;e mais pas attaquer l'ennemi&middot;e.</p>",
+      "partialLabel": "Réussite partielle",
+      "partial": "<p>Si quelqu'un attaque ou interf&egrave;re avec votre alli&eacute;&middot;e, vous l'attaquez et lui infligez les blessures d&eacute;finies, tout en avertissant votre alli&eacute;&middot;e.</p>",
+      "successLabel": "Réussite",
+      "success": "<p>Si quelqu'un attaque ou interf&egrave;re avec votre alli&eacute;&middot;e, vous l'attaquez et lui infligez les blessures d&eacute;finies, tout en avertissant votre alli&eacute;&middot;e. Sur 10+, choisissez une option:</p>\n<ul>\n<li>Et vous leur infligez des dommages avant qu'il ne puisse mener &agrave; bien leur attaque ou leur ing&eacute;rence.</li>\n<li>Et vous infligez de terribles blessures (+1&amp;middot;Blessure).</li>\n</ul>",
+      "choices": ""
+    },
+    "You’re the bait": {
+      "name": "Vous êtes l'appât",
+      "description": "<p>Lorsque <strong>vous &ecirc;tes l'app&acirc;t</strong>, <em>lancez+t&eacute;nacit&eacute;</em>.</p>",
+      "failureLabel": "Complications",
+      "failure": "<p>Avec 6-, le ou la MC choisit une option pour vous.</p>",
+      "partialLabel": "Réussite partielle",
+      "partial": "<p>De 7 &agrave; 9, choisissez une option:</p>",
+      "successLabel": "Réussite",
+      "success": "<p>Avec 10+, choisissez deux options:</p>",
+      "choices": "<ul>\n<li>Vous attirez votre proie jusqu'&agrave; l'int&eacute;rieur du pi&egrave;ge. Sinon, elle ne fait que s'approcher.</li>\n<li>Votre proie ne se doute pas de rien. Dans le cas contraire, elle se m&eacute;fie et reste sur ses gardes.</li>\n<li>Vous ne vous exposez pas &agrave; des cons&eacute;quences suppl&eacute;mentaires. Sinon, les d&eacute;g&acirc;ts inflig&eacute;s par votre proie sont augment&eacute;s de +1.</li>\n</ul>"
+    },
+    "You’re the cat": {
+      "name": "Vous êtes le chat",
+      "description": "<p>Lorsque <strong>vous &ecirc;tes le chat</strong>, <em>lancez+t&eacute;nacit&eacute;</em>.</p>",
+      "failureLabel": "Complications",
+      "failure": "<p>Avec 6-, votre proie vous &eacute;chappe.</p>",
+      "partialLabel": "Réussite partielle",
+      "partial": "<p>De 7 &agrave; 9, vous attrapez votre proie. Vous avez d&ucirc; la suivre l&agrave; o&ugrave; elle voulait aller; la proie choisit le lieu.</p>",
+      "successLabel": "Réussite",
+      "success": "<p>Avec 10+, vous surprenez votre proie. Sur un 10+,vous la conduisez jusqu'&agrave; l'endroit de votre choix; dites o&ugrave;.</p>",
+      "choices": ""
+    },
+    "You’re the mouse": {
+      "name": "Vous êtes la souris",
+      "description": "<p>Lorsque <strong>vous &ecirc;tes la souris</strong>, <em>lancez+t&eacute;nacit&eacute;</em>.</p>",
+      "failureLabel": "Complications",
+      "failure": "<p>Avec 6-, vous &ecirc;tes coinc&eacute;&middot;e par le chasseur et le ou la MC vous dit o&ugrave;.</p>",
+      "partialLabel": "Réussite partielle",
+      "partial": "<p>De 7 &agrave; 9, le chasseur vous surprend, mais seulement apr&egrave;s que vous l'ayez conduit &agrave; l'endroit de votre choix ; dites o&ugrave;.</p>",
+      "successLabel": "Réussite",
+      "success": "<p>Avec 10+, vous vous &eacute;chappez proprement et laissez le chasseur &agrave; la tra&icirc;ne.</p>",
+      "choices": ""
+    }
+  }
+}

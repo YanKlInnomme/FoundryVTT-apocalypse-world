@@ -1,0 +1,51 @@
+{
+  "folder": "Oe76sf70QZrzL3lE",
+  "name": "Leadership",
+  "type": "move",
+  "_id": "QoBDUuG4jjypNbrq",
+  "img": "modules/apocalypse-world/img/icons/public-speaker.svg",
+  "system": {
+    "description": "<p>When you have to order your gang to advance, regroup, hold position, hold discipline, or put their damn backs into it, <em>roll+hard</em>.</p>",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications",
+        "value": "<p>On a miss, they do it, but you&rsquo;ll hear about it later.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": "<p>On a hit, they do it.</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success",
+        "value": "<p>On a hit, they do it. On a 10+, they snap to; take +1forward.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "The Hardholder",
+    "rollType": "hard",
+    "rollMod": 0,
+    "actorType": "",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "p6IgSmDeYI1MXmv6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.9.4",
+    "coreVersion": "11.315",
+    "createdTime": 1712921252927,
+    "modifiedTime": 1713770683492,
+    "lastModifiedBy": "p6IgSmDeYI1MXmv6"
+  },
+  "_key": "!items!QoBDUuG4jjypNbrq"
+}

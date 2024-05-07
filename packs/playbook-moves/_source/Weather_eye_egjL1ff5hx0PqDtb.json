@@ -1,0 +1,51 @@
+{
+  "folder": "zLsn3MXbHZkigmYp",
+  "name": "Weather eye",
+  "type": "move",
+  "_id": "egjL1ff5hx0PqDtb",
+  "img": "modules/apocalypse-world/img/icons/cyclops.svg",
+  "system": {
+    "description": "<p>When you <strong>open your brain to the world’s psychic maelstrom</strong>, <em>roll+cool</em> instead of roll+weird.</p>",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications",
+        "value": "<p>On a miss, be prepared for the worst.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": "<p>On a 7&ndash;9, the MC gives you an impression. If you already know all there is to know, the MC will tell you that.</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success",
+        "value": "<p>On a 10+, the MC gives you good detail.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "The Driver",
+    "rollType": "cool",
+    "rollMod": 0,
+    "actorType": "",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "p6IgSmDeYI1MXmv6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.9.4",
+    "coreVersion": "11.315",
+    "createdTime": 1712837067752,
+    "modifiedTime": 1713770683492,
+    "lastModifiedBy": "p6IgSmDeYI1MXmv6"
+  },
+  "_key": "!items!egjL1ff5hx0PqDtb"
+}

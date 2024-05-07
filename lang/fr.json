@@ -3,7 +3,8 @@
     "TYPES": {
       "Actor": {
         "character": "Personnage Joueur·euse",
-        "npc": "Personnage Non Joueur·euse"
+        "npc": "Personnage Non Joueur·euse",
+        "other": "Autre"
       },
       "Item": {
         "move": "Action",
@@ -16,22 +17,23 @@
     "PBTA": {
       "Advantage": "Avantage",
       "Ask": "Demander",
-      "AskTitle": "{name} : Choisissez une statistique",
+      "AskTitle": "{name}: Choisissez une statistique",
       "Biography": "Biographie",
+      "Category": "Catégorie",
       "ClearMoves": "Effacer les actions",
       "ChatMessage": {
         "ShiftUp": "Déplacer vers le haut",
         "ShiftDown": "Déplacer vers le bas"
       },
       "Choices": "Choix",
-      "ConditionsApplied": "Conditions appliquées :",
+      "ConditionsApplied": "Conditions appliquées:",
       "Create": "Créer",
       "Description": "Description",
-      "description": "Animez des parties pour n'importe quel système PbtA dans FoundryVTT !",
+      "description": "Animez des parties pour n'importe quel système PbtA dans FoundryVTT!",
       "Disadvantage": "Désavantage",
       "Equipment": "Équipement",
       "EquipmentType": "Type d'équipement",
-      "failure": "Complications (marquer XP)",
+      "failure": "Complications",
       "Formula": "Formule de lancer personnalisée",
       "Forward": "Mod. Situation",
       "Modifier": "Modificateur",
@@ -47,7 +49,7 @@
       "partial": "Réussite partielle",
       "Playbook": "Archétype",
       "Prompt": "Invite",
-      "PromptTitle": "{name} : Entrez un modificateur",
+      "PromptTitle": "{name}: Entrez un modificateur",
       "Qty": "Qté",
       "Quantity": "Quantité",
       "Resource": "Ressource",
@@ -59,7 +61,7 @@
       "RollLabel": "Lancer {label}",
       "RollMove": "Lancer une action",
       "RollMode": "Mode de lancer",
-      "RolledStat": "Statistique : {stat}",
+      "RolledStat": "Statistique: {stat}",
       "SheetClassCharacter": "Fiche de personnage PbtA par défaut",
       "SheetClassNPC": "Fiche de PNJ PbtA par défaut",
       "SheetClassOther": "Autre fiche PbtA par défaut",
@@ -73,7 +75,7 @@
       "Uses": "Utilisations",
       "ViewPlaybook": "Voir l'Archétype",
       "Weight": "Poids",
-      "Wt": "Poids",
+      "Wt": "Pds",
       "Common": {
         "Description": "Description",
         "Details": "Détails",
@@ -81,8 +83,10 @@
       },
       "Dialog": {
         "Ask1": "Choisissez une statistique pour cette action.",
-        "ChooseConditions": "Choisissez tous les modificateurs conditionnels qui s'appliquent :",
-        "Prompt1": "Choisissez le modificateur pour cette action."
+        "ChooseConditions": "Choisissez tous les modificateurs conditionnels qui s'appliquent:",
+        "Prompt1": "Choisissez le modificateur pour cette action.",
+        "HowManyToken": "Combien de jetons souhaitez-vous utiliser?",
+        "ErrorAboveMax": "Vous ne pouvez pas dépenser plus de jetons que vous en avez."
       },
       "Messages": {
         "sheetConfig": {
@@ -91,7 +95,7 @@
           "attributeMax": "doit inclure une propriété 'max'.",
           "attributeOptions": "doit inclure un groupe 'options'",
           "attributeOptionsEmpty": "doit inclure au moins une option dans le groupe 'options'.",
-          "attributeType": "doit être l'un des types suivants :",
+          "attributeType": "doit être l'un des types suivants:",
           "attributeTypeNull": "n'a pas de type (peut être des options dont le parent a été renommé).",
           "equipmentTypes": "est requis et doit avoir au moins un type d'équipement.",
           "groupAttributes": "doit être un groupe d'attributs.",
@@ -162,27 +166,27 @@
           "label": "Configuration de la fiche PbtA",
           "name": "Configurer les fiches de personnage",
           "hint": "Choisissez la structure de données pour les fiches de personnage, telles que les statistiques, les compétences et les détails.",
-          "additions": "Ajouts :",
+          "additions": "Ajouts:",
           "confirm": "Confirmer",
           "confirmChanges": "Confirmer les changements",
           "confirmUpdate": "Confirmer + Mettre à jour",
-          "cosmetic": "Changements cosmétiques (étiquette ou description) :",
-          "deletions": "Suppressions :",
-          "maxValue": "Valeur maximale modifiée :",
+          "cosmetic": "Changements cosmétiques (étiquette ou description):",
+          "deletions": "Suppressions:",
+          "maxValue": "Valeur maximale modifiée:",
           "noteCancel": "Annuler et empêcher l'enregistrement des changements",
-          "noteChangesDetected": "Des changements ont été détectés dans un ou plusieurs de vos types d'acteurs. Examinez les changements ci-dessous, puis choisissez l'une des options suivantes :",
+          "noteChangesDetected": "Des changements ont été détectés dans un ou plusieurs de vos types d'acteurs. Examinez les changements ci-dessous, puis choisissez l'une des options suivantes:",
           "noteConfirm": "Confirmer sans mettre à jour les acteurs existants",
           "noteConfirmUpdate": "Confirmer et mettre à jour les acteurs existants",
-          "noteConfirmUpdateBold": "REMARQUE : Les données existantes dans les attributs supprimés seront supprimées de manière permanente",
+          "noteConfirmUpdateBold": "REMARQUE: Les données existantes dans les attributs supprimés seront supprimées de manière permanente",
           "notes2": "Vous devez saisir les données de la fiche de personnage au format TOML. Rédiger en TOML est similaire à travailler avec des fichiers .ini courants dans les paramètres de modding pour les jeux PC.",
           "notes3": "Lisez la documentation liée ci-dessous avant de configurer votre fiche. Vous pouvez également vous rendre sur le canal #powered-by-the-apocalypse du Discord principal de Foundry Virtual Tabletop pour poser des questions et obtenir de l'aide.",
-          "options": "Liste des options modifiées (les valeurs seront préservées) :",
-          "values": "Valeur retirée de la liste radio (la valeur sera réinitialisée au premier élément) :",
+          "options": "Liste des options modifiées (les valeurs seront préservées):",
+          "values": "Valeur retirée de la liste radio (la valeur sera réinitialisée au premier élément):",
           "resetDefaults": "Réinitialiser les valeurs par défaut",
           "saveConfiguration": "Enregistrer la configuration",
           "title": "Configuration de la fiche",
-          "type": "Type modifié :",
-          "typeReset": "Type modifié (l'attribut sera réinitialisé) :",
+          "type": "Type modifié:",
+          "typeReset": "Type modifié (l'attribut sera réinitialisé):",
           "sheetConfigDisabledModule": "La configuration de la fiche a été désactivée en raison d'un module qui la fournit."
         },
         "tagConfig": {
@@ -237,20 +241,20 @@
           "4": "Mourir"
         }
       },
-      "Special.Label": "Spécial",
+      "Special.Label": "Action spéciale",
       "Highlight.Label": "Point fort",
       "Hold.Label": "Réserve",
       "Armor.Label": "Armure",
       "XP": {
-        "Label": "eXPérience",
-        "Description": "Un·e joueur·euse marque un point d'eXPérience quand : il ou elle lance une statistique mise en point fort ; sa Relation avec quelqu'un·e passe un palier de +4 à +1 ou de -3 à 0 ; une action lui dit de le faire que ce soit une de ses propres actions, une action de quelqu'un·e d'autre ou une action personnalisée. Lorsqu'un·e joueur·euse remplit le cinquième cercle d'eXPérience, il ou elle améliore son personnage et la barre d'eXPérience est remise à zéro."
+        "Label": "XP",
+        "Description": "Un·e joueur·euse marque un point d'eXPérience quand: il ou elle lance une statistique mise en point fort; l'Historique de connexions (Hx) avec quelqu'un·e passe un palier de +4 à +1 ou de -3 à 0; une action lui dit de le faire que ce soit une de ses propres actions, une action de quelqu'un·e d'autre ou une action personnalisée. Lorsqu'un·e joueur·euse remplit le cinquième cercle d'eXPérience, il ou elle améliore son personnage et la barre d'eXPérience est remise à zéro."
       },
-      "Hx.Label": "Relations",
+      "Hx.Label": "Hx",
       "Improvement.Label": "Améliorations",
       "Look.Label": "Apparence",
       "MoveTypes": {
         "Basic": "Actions de base",
-        "Battle": "Actions en combat",
+        "Battle": "Actions de combat",
         "RoadWar": "Actions en conflit routier",
         "Class": "Actions d'archétype",
         "Peripheral": "Actions additionnelles"

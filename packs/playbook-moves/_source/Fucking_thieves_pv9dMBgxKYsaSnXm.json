@@ -1,0 +1,51 @@
+{
+  "folder": "axy1PRqdvNW4dpt5",
+  "name": "Fucking thieves",
+  "type": "move",
+  "_id": "pv9dMBgxKYsaSnXm",
+  "img": "modules/apocalypse-world/img/icons/robber.svg",
+  "system": {
+    "description": "<p>When you have your gang search their pockets and saddlebags for something, r<em>oll+hard</em>.</p>\n<p>It has to be something small enough to fit.</p>",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications",
+        "value": "<p>On a miss, one of you used to have just the thing, but it turns out that some asswipe stole it from you.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": "<p>On a 7&ndash;9, one of you happens to have something pretty close, unless what you&rsquo;re looking for is hi-tech, in which case no dice.</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success",
+        "value": "<p>On a 10+, one of you happens to have just the thing, or close enough.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "The Chopper",
+    "rollType": "hard",
+    "rollMod": 0,
+    "actorType": "",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "p6IgSmDeYI1MXmv6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.9.4",
+    "coreVersion": "11.315",
+    "createdTime": 1712833587740,
+    "modifiedTime": 1713770683492,
+    "lastModifiedBy": "p6IgSmDeYI1MXmv6"
+  },
+  "_key": "!items!pv9dMBgxKYsaSnXm"
+}

@@ -1,0 +1,51 @@
+{
+  "folder": "EzipKeL35SuALjaF",
+  "name": "Fingers in every pie",
+  "type": "move",
+  "_id": "r2mkn7DJZII8tkZg",
+  "img": "modules/apocalypse-world/img/icons/pie-slice.svg",
+  "system": {
+    "description": "<p>Put out the word that you want a thing — could be a person, could be somethin somethin, could even be just a thing — and <em>roll+hot</em>.</p>",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications",
+        "value": "<p>On a miss, it shows up in your establishment for you with strings wicked attached.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": "<p>On a 7-9, well, your people make an effort and everybody wants to please you and close is close, right?</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success",
+        "value": "<p>On a 10+, it shows up in your establishment for you, like magic.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "The Maestro D’",
+    "rollType": "hot",
+    "rollMod": 0,
+    "actorType": "",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "p6IgSmDeYI1MXmv6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.9.4",
+    "coreVersion": "11.315",
+    "createdTime": 1712927556726,
+    "modifiedTime": 1713770683492,
+    "lastModifiedBy": "p6IgSmDeYI1MXmv6"
+  },
+  "_key": "!items!r2mkn7DJZII8tkZg"
+}

@@ -1,0 +1,51 @@
+{
+  "folder": "Oe76sf70QZrzL3lE",
+  "name": "Wealth",
+  "type": "move",
+  "_id": "bwPRPhUOZBtCrEwB",
+  "img": "modules/apocalypse-world/img/icons/gold-stack.svg",
+  "system": {
+    "description": "<p>If your hold is secure and your rule unchallenged, at the beginning of the session, <em>roll+hard</em>.</p>",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveResults": {
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Complications",
+        "value": "<p>On a miss, or if your hold is compromised or your rule contested, your hold is in want.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": "<p>On a 7&ndash;9, you have surplus, but choose 1 want.</p>"
+      },
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success",
+        "value": "<p>On a 10+, you have surplus at hand and available for the needs of the session.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "The Hardholder",
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "",
+    "choices": "<p>The precise values of your surplus and want depend on your holding.</p>"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "p6IgSmDeYI1MXmv6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "0.9.4",
+    "coreVersion": "11.315",
+    "createdTime": 1712921802133,
+    "modifiedTime": 1713770683492,
+    "lastModifiedBy": "p6IgSmDeYI1MXmv6"
+  },
+  "_key": "!items!bwPRPhUOZBtCrEwB"
+}
