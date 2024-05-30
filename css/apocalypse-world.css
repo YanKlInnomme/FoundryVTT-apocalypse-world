@@ -1,25 +1,21 @@
-/* ----------------------------------------- */
-/* Root */
-/* ----------------------------------------- */
-:root {
-	--color-text-hyperlink: #1d4204;
-	--color-shadow-primary: #2b6107;
-	--color-shadow-highlight: #1d8d13;
-	--color-border-highlight: #1d8d13;
-	--color-border-highlight-alt: #2b6107;
-	--font-primary: "Hack", sans-serif;
-	scrollbar-color: #2b6107 #1d8d13;
+/* Variables Foundry VTT */
+
+	:root {
+	--color-border-highlight:#1d8d13;
+	--color-border-highlight-alt:#2b6107;
+	--color-shadow-highlight:#1d8d13;
+	--color-shadow-primary:#2b6107;
+	--color-text-hyperlink:#1d4204;
+	--font-primary:Hack, sans-serif;
+	}
+
+/* Polices d'écriture */
+
+@font-face {
+	font-family: "Dirtyego";
+  src: url("../fonts/dirtyego.woff2") format("woff2"), url("../fonts/dirtyego.woff") format("woff");
 }
 
-::-webkit-scrollbar-thumb {
-	background: #2b6107;
-	border: 1px solid var(--color-border-highlight);
-}
-
-
-/* ----------------------------------------- */
-/* Fonts */
-/* ----------------------------------------- */
 @font-face {
 	font-family: "Hack";
   src: url("../fonts/hack-regular.woff2") format("woff2"), url("../fonts/hack-regular.woff") format("woff");
@@ -49,31 +45,21 @@
 }
 
 @font-face {
-	font-family: "Blockheads";
-  src: url("../fonts/Blockheads.ttf") format("truetype");
-}
-
-@font-face {
-	font-family: "Personal Services";
-  src: url("../fonts/Personal\ Services.ttf") format("truetype");
-}
-
-@font-face {
-	font-family: "Dirtyego";
-  src: url("../fonts/dirtyego.ttf") format("truetype");
-}
-
-@font-face {
 	font-family: "Propagan";
-  src: url("../fonts/propagan.ttf") format("truetype");
+  src: url("../fonts/propagan.woff2") format("woff2"), url("../fonts/propagan.woff") format("woff");
 }
+
+/* Logo Apocalypse World */
 
 #logo {
 	content: url("../img/logo.webp");
 	width: 150px;
 	height: auto;
 	padding-right: 10px;
+	background: none !important;
 }
+
+/* Mise en pause */ 
 
 #pause > img {
 	content: url("../img/pause.svg");
@@ -81,6 +67,7 @@
 	width: 374px;
 	top: calc(50% - 246px);
 	left: calc(50% - 187px);
+	background: none !important;
 }
 
 #pause {
@@ -129,99 +116,50 @@
 }
 
 #pause > figcaption {
-	color: #2b6107;
+	color: var(--color-shadow-primary);
 	position: relative;
 	animation: noise-anim 1s steps(1) infinite;
-}
-
-.pbta.sheet label, .pbta.sheet h1, .pbta.sheet h2 {
-	font-family: "Hack",sans-serif;
 }
 
 #ui-top.offset {
 	margin-left: -60px;
 }
 
-#chat-controls .control-buttons {
-	flex: 0 0 50px;
-}
+/* Variables système */
 
-button {
-	font-size: var(--font-size-12);
-	line-height: 25px;
-}
-
-.pbta {
-	font-family: "Hack",sans-serif;
-}
-
-.pbta.sheet .cell__checkboxes label.flexrow, .pbta.sheet .cell__radio label.flexrow {
-	font-size: 11px;
-}
-
-.item-icon {
-	border: 0px;
-	background: transparent !important;
-}
+* {
+	scrollbar-color:#2b6107 transparent;
+	scrollbar-width:thin;
+	}
 
 img {
 	border: 0px;
-	background: transparent !important;
+	background: #208D21 !important;
 }
 
-.profile-img {
-	background-color: #989898 !important;
-	position: relative;
-	height: 324px;
-	width: 200px;
-	transform: rotate(-5deg);
-	transition: transform 0.5s;
-	box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
-	float: left;
-	border: 1px;
-	object-fit: cover;
-	margin-right: 10px;
+.vtt .window-app .dialog-buttons .dialog-button, .vtt .window-app .dialog-button {
+    background: #2b6107;
 }
 
 .vtt .sidebar-tab {
 	font-family: "Hack",sans-serif;
 }
 
-.pbta.sheet .input, .pbta.sheet .input--title {
-	font-family: "Hack",sans-serif;
+#chat-controls .control-buttons {
+	flex: 0 0 50px;
 }
 
-.pbta.sheet .cell--image {
-	background: none;
-}
+/* Fiche de personnage */
 
-.pbta.sheet .sheet-attributes .cell--stats .stat {
-	background: #1d8d13;
-}
-
-.pbta.sheet .sheet-attributes .cell--stats .stat:hover {
-	background: #2b6107;
-}
-
-.pbta.sheet .sheet-attributes .cell--stats .stat .cell__title {
-	font-family: "Dirtyego",sans-serif;
-	font-size: 50px;
-	font-weight: 100;
-}
-
-.pbta.sheet .tabs .item {
-	font-family: "Propagan", sans-serif;
-	font-size: 20px;
-	font-weight: 300;
-}
-
-.pbta.sheet .cell__title {
-	font-weight: 100;
-	font-size: 35px;
-	letter-spacing: -0.5px;
-	color: #1d8d13;
-	font-family: "Dirtyego",sans-serif;
-	border-bottom: 2px dotted #1d8d13;
+.profile-img {
+	background-color: #989898 !important;
+	position: relative;
+	height: 324px;
+	width: 200px;
+	border: none;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+	transform: rotate(-5deg);
+	object-fit: cover;
 }
 
 .item-group-label {
@@ -230,38 +168,131 @@ img {
 	color: black;
 }
 
-.pbta.sheet .cell--moves .item-icon {
-	background-color: #1d8d13 !important;
+.pbta {
+	font-family:Hack,sans-serif;
+	}
+	
+	.pbta.sheet .cell input[type=text] {
+	font-family:Hack,sans-serif;
+	font-size:18px;
+	}
+	
+	.pbta.sheet .cell--image {
+	background-color:#1d4204!important;
+	}
+	
+	.pbta.sheet .cell--moves .item-icon {
+	background-color:#1d8d13!important;
+	border:none;
+	}
+	
+	.pbta.sheet .cell__checkboxes label.flexrow,.pbta.sheet .cell__radio label.flexrow {
+	font-size:11px;
+	}
+	
+	.pbta.sheet .cell__description--attr {
+	font-size:11px;
+	margin-top:-3px;
+	}
+	
+	.pbta.sheet .cell__title {
+	border-bottom:2px dotted #1d8d13;
+	color:#1d8d13;
+	font-family:Dirtyego,sans-serif;
+	font-size:35px;
+	font-weight:100;
+	letter-spacing:-.5px;
+	}
+	
+	.pbta.sheet .cell__title button {
+	background:#1d8d13;
+	border:none;
+	}
+	
+	.pbta.sheet .input,.pbta.sheet .input--title {
+	font-family:Hack,sans-serif;
+	}
+	
+	.pbta.sheet .input--title {
+	font-weight:400;
+	}
+	
+	.pbta.sheet .sheet-attributes .cell--stats .stat {
+	background:#1d8d13;
+	}
+	
+	.pbta.sheet .sheet-attributes .cell--stats .stat .cell__title {
+	font-family:Dirtyego,sans-serif;
+	font-size:50px;
+	font-weight:100;
+	}
+	
+	.pbta.sheet .sheet-attributes .cell--stats .stat:hover {
+	background:#000;
+	}
+	
+	.pbta.sheet .sheet-wrapper .sheet-header {
+	max-height:none;
+	}
+	
+	.pbta.sheet .tabs {
+	border-bottom:2px solid #999;
+	}
+	
+	.pbta.sheet .tabs .item {
+	font-family:Propagan, sans-serif;
+	font-size:20px;
+	font-weight:300;
+	}
+	
+	.pbta.sheet .tabs .item.active {
+	color:#1d8d13;
+	}
+	
+	.pbta.sheet label,.pbta.sheet h1,.pbta.sheet h2 {
+	font-family:Hack,sans-serif;
+	text-shadow:none;
+	}
+	
+	.pbta.sheet.npc .sheet-wrapper .sheet-top {
+	max-height:none;
+	}
+
+	.pbta.sheet .item-label {
+		max-width: 400px;
+	}
+
+/* Journaux */
+
+ol {
+	margin-left: 10px;
+}
+
+/* Webcams */
+
+div#camera-views {
+	--av-border-radius: 0;
+	--color-border-av-speaking: #fefefe;
+	--av-minimized-icon-size: 75px;
+}
+
+.camera-view .shadow {
+	box-shadow: rgba(0, 0, 0, 0.50) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.6) 0px 18px 36px -18px inset;
+	border-radius: 0;
+  }
+
+.camera-view .player-name {
+	background-color: rgba(52, 52, 52, 0.95);
+	/* box-shadow: 4px 4px 15px 2px rgba(0, 0, 0, 0.7); */
 	border: none;
+	border-radius: 15px;
+	color: #fefefe !important;
 }
 
-.pbta.sheet .input--title {
-	font-weight: normal;
+.camera-view.camera-box-dock {
+	filter: saturate(0.4);
 }
 
-.pbta.sheet .cell input[type=text] {
-	font-size: 18px;
-	font-family: "Hack",sans-serif;
-}
-
-.pbta.sheet .cell__description--attr {
-	font-size: 11px;
-	margin-top: -3px;
-}
-
-.pbta.sheet .tabs .item.active {
-	color: #1d8d13;
-}
-
-.pbta.sheet .cell__title button {
-	background: #1d8d13;
-	border: none;
-}
-
-.vtt .window-app .dialog-buttons .dialog-button, .vtt .window-app .dialog-button {
-    background: #2b6107;
-}
-
-.vtt .window-app {
-    background: rgb(55,55,55);
+.camera-view.speaking {
+	filter: none;
 }

@@ -180,7 +180,7 @@
       "choices": ""
     },
     "Dangerous & sexy": {
-      "name": "Dangereux·se & torride",
+      "name": "Dangereux·se & sexy",
       "description": "<p>Lorsque vous entrez dans une situation conflictuelle, <em>lancez+d&eacute;sir</em>.</p>",
       "failureLabel": "Complications",
       "failure": "<p>Avec 6-, vos ennemis vous identifient imm&eacute;diatement comme principale menace.</p>",
@@ -279,14 +279,14 @@
       "choices": ""
     },
     "Fortunes": {
-      "name": "Destinée",
-      "description": "<p>Destin, offrande et doléance dépendent tous de celles et ceux qui vous suivent. Au début de la session, lancez+destin.</p>",
+      "name": "Richesses",
+      "description": "<p>Richesse, surplus et besoin dépendent tous de celles et ceux qui vous suivent. Au début de la session, lancez+richesse.</p>",
       "failureLabel": "Complications",
-      "failure": "<p>Avec 6-, celles et ceux qui vous suivent vous soumettez leurs doléances.</p>",
+      "failure": "<p>Avec 6-, vos suivant·e·s sont dans le besoin.</p>",
       "partialLabel": "Réussite partielle",
-      "partial": "<p>De 7 &agrave; 9, celles et ceux qui vous suivent vous portent des offrandes, le ou la MC choisit une doléance.</p><p>Si l'offrande est liée au Troc, comme 1·Troc ou 2·Trocs, il s'agit de votre part personnelle, à dépenser pour votre train de vie ou pour ce que vous voulez.</p>",
+      "partial": "<p>De 7 &agrave; 9, vos suivant·e·s vous apportent le surplus, le ou la MC choisit un besoin.</p><p>Si le surplus est lié au Troc, comme 1·Troc ou 2·Trocs, il s'agit de votre part personnelle, à dépenser pour votre train de vie ou pour ce que vous voulez.</p>",
       "successLabel": "Réussite",
-      "success": "<p>Avec 10+, celles et ceux qui vous suivent vous portent des offrandes.</p><p>Si l'offrande est liée au Troc, comme 1·Troc ou 2·Trocs, il s'agit de votre part personnelle, à dépenser pour votre train de vie ou pour ce que vous voulez.</p>",
+      "success": "<p>Avec 10+, vos suivant·e·s vous apportent le surplus.</p><p>Si le surplus est lié au Troc, comme 1·Troc ou 2·Trocs, il s'agit de votre part personnelle, à dépenser pour votre train de vie ou pour ce que vous voulez.</p>",
       "choices": ""
     },
     "Frenzy": {
@@ -606,7 +606,7 @@
       "partial": "<p>De 7 &agrave; 9, vous pouvez poser une question au ou à la MC.</p>",
       "successLabel": "Réussite",
       "success": "<p>Avec 10+, vous pouvez poser trois questions au ou à la MC.</p>",
-      "choices": "<ul>\n<li>Qui a manipulé cela avant moi?</li>\n<li>Qui a fait cela?</li>\n<li>Quelles émotions fortes ont été ressenties à proximité de cela?</li>\n<li>Quels mots ont été récemment prononcés à proximité de cela?</li>\n<li>Qu'a-t-on fait le plus récemment avec ceci ou à cela?</li>\n<li>Qu'est-ce qui ne va pas avec ceci, et comment pourrais-je la réparer?</li>\n</ul>"
+      "choices": "<ul>\n<li>Qui a manipulé cela avant moi?</li>\n<li>Qui a fait cela?</li>\n<li>Quelles émotions fortes ont été ressenties à proximité de cela?</li>\n<li>Quels mots ont été récemment prononcés à proximité de cela?</li>\n<li>Qu'a-t-on fait le plus récemment avec ceci ou à cela?</li>\n<li>Qu'est-ce qui ne va pas avec ceci et comment pourrais-je la réparer?</li>\n</ul>"
     },
     "Touched by death": {
       "name": "Touched by death",

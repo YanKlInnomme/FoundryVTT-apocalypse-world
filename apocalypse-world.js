@@ -92,9 +92,25 @@ Hooks.once('pbtaSheetConfig', () => {
   let movetypesroadwar = game.i18n.localize("APOCALYPSEWORLD.MoveTypes.RoadWar");
   let movetypesclass = game.i18n.localize("APOCALYPSEWORLD.MoveTypes.Class");
   let movetypesperipheral = game.i18n.localize("APOCALYPSEWORLD.MoveTypes.Peripheral");
+  let movetypesthreat = game.i18n.localize("APOCALYPSEWORLD.MoveTypes.Threat");
   
   let equipmenttypesgear = game.i18n.localize("APOCALYPSEWORLD.EquipmentTypes.Gear");
   let equipmenttypesbarter = game.i18n.localize("APOCALYPSEWORLD.EquipmentTypes.Barter");
+
+  let kindoptionslabel = game.i18n.localize("APOCALYPSEWORLD.Kind.Options.Label");
+  let kindoption1 = game.i18n.localize("APOCALYPSEWORLD.Kind.Options.1");
+  let kindoption2 = game.i18n.localize("APOCALYPSEWORLD.Kind.Options.2");
+  let kindoption3 = game.i18n.localize("APOCALYPSEWORLD.Kind.Options.3");
+  let kindoption4 = game.i18n.localize("APOCALYPSEWORLD.Kind.Options.4");
+  let kindoption5 = game.i18n.localize("APOCALYPSEWORLD.Kind.Options.5");
+  let kindoption6 = game.i18n.localize("APOCALYPSEWORLD.Kind.Options.6");
+  let kindoption7 = game.i18n.localize("APOCALYPSEWORLD.Kind.Options.7");
+  
+  let impulselabel = game.i18n.localize("APOCALYPSEWORLD.Impulse.Label");
+  let strakelabel = game.i18n.localize("APOCALYPSEWORLD.Stake.Label");
+  let connectedthreatslabel = game.i18n.localize("APOCALYPSEWORLD.ConnectedThreats.Label");
+  let countdownlabel = game.i18n.localize("APOCALYPSEWORLD.Countdown.Label");
+  let countdowndescription = game.i18n.localize("APOCALYPSEWORLD.Countdown.Description");
 
   game.settings.set('pbta', 'sheetConfigOverride', true);
   game.pbta.tagConfigOverride = {
@@ -307,54 +323,95 @@ Hooks.once('pbtaSheetConfig', () => {
       },
       "npc": {
         "attrTop": {
-          "harm": {
-            "label": "Dommage",
+          "impulse": {
+            "label": impulselabel,
             "description": null,
             "customLabel": false,
             "userLabel": false,
-            "type": "Ressource",
-            "value": 0,
-            "max": 0
-          },
-          "genre": {
-            "label": "Genre",
-            "description": null,
-            "customLabel": false,
-            "userLabel": false,
-            "type": "Texte",
+            "type": "LongText",
             "value": ""
           },
-          "age": {
-            "label": "Âge",
+          "stake": {
+            "label": strakelabel,
             "description": null,
             "customLabel": false,
             "userLabel": false,
-            "type": "Texte",
+            "type": "LongText",
+            "value": ""
+          },
+          "connectedthreats": {
+            "label": connectedthreatslabel,
+            "description": null,
+            "customLabel": false,
+            "userLabel": false,
+            "type": "LongText",
             "value": ""
           }
         },
         "attrLeft": {
-          "look": {
-            "label": "Apparence",
+          "countdown": {
+            "label": countdownlabel,
             "description": null,
             "customLabel": false,
             "userLabel": false,
-            "type": "LongText",
-            "value": ""
+            "type": "Resource",
+            "value": 0,
+            "max": 0
           },
-          "conduite": {
-            "label": "Conduite",
+          "kind": {
+            "label": kindoptionslabel,
             "description": null,
             "customLabel": false,
             "userLabel": false,
-            "type": "LongText",
-            "value": ""
+            "type": "ListOne",
+            "default": 0,
+            "condition": false,
+            "options": {
+              "0": {
+                "label": kindoption1,
+                "value": false
+              },
+              "1": {
+                "label": kindoption2,
+                "value": false
+              },
+              "2": {
+                "label": kindoption3,
+                "value": false
+              },
+              "3": {
+                "label": kindoption4,
+                "value": false
+              },
+              "4": {
+                "label": kindoption5,
+                "value": false
+              },
+              "5": {
+                "label": kindoption6,
+                "value": false
+              },
+              "6": {
+                "label": kindoption7,
+                "value": false
+              }
+            }
           }
         },
         "moveTypes": {
-          "mc": {
-            "label": "Actions du MJ",
+          "threat": {
+            "label": movetypesthreat,
             "moves": []
+          }
+        },
+        "equipmentTypes": {
+          "gear": {
+            "label": equipmenttypesgear,
+            "mouvements": []
+          },
+          "barter": {
+            "label": equipmenttypesbarter,
+            "mouvements": []
           }
         }
       }

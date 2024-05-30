@@ -3,12 +3,12 @@
     "TYPES": {
       "Actor": {
         "character": "Personnage Joueur·euse",
-        "npc": "Personnage Non Joueur·euse",
+        "npc": "Menace",
         "other": "Autre"
       },
       "Item": {
         "move": "Action",
-        "npcMove": "Action PNJ",
+        "npcMove": "Action de menace",
         "equipment": "Équipement",
         "playbook": "Archétype",
         "tag": "Étiquette"
@@ -257,11 +257,37 @@
         "Battle": "Actions de combat",
         "RoadWar": "Actions en conflit routier",
         "Class": "Actions d'archétype",
-        "Peripheral": "Actions additionnelles"
+        "Peripheral": "Actions additionnelles",
+        "Threat": "Actions de menace"
       },
       "EquipmentTypes": {
         "Gear": "Équipement",
         "Barter": "Bric-à-brac"
+      },
+      "Kind": {
+        "Options": {
+          "Label": "Type",
+          "1": "Seigneur de guerre",
+          "2": "Aberration",
+          "3": "Affliction",
+          "4": "Brutes",
+          "5": "Paysage",
+          "6": "Terrain",
+          "7": "Véhicule"
+        }
+      },
+      "Impulse": {
+        "Label": "Pulsion"
+      },
+      "Stake": {
+        "Label": "Enjeux"
+      },
+      "ConnectedThreats": {
+        "Label": "Menaces connectées"
+      },
+      "Countdown": {
+        "Label": "Compteur",
+        "Description": ""
       }
     }
   }

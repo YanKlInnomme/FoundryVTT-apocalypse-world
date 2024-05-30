@@ -3,12 +3,12 @@
   "TYPES": {
     "Actor": {
       "character": "Character",
-      "npc": "NPC",
+      "npc": "Threat",
       "other": "Other"
     },
     "Item": {
       "move": "Move",
-      "npcMove": "NPC Move",
+      "npcMove": "Threat Move",
       "equipment": "Equipment",
       "playbook": "Playbook",
       "tag": "Tag"
@@ -276,11 +276,37 @@
       "Battle": "Battle moves",
       "RoadWar": "Road-war moves",
       "Class": "Playbook moves",
-      "Peripheral": "Peripheral moves"
+      "Peripheral": "Peripheral moves",
+      "Threat": "Threat moves"
     },
     "EquipmentTypes": {
       "Gear": "Gear",
       "Barter": "Odds and ends"
+    },
+    "Kind": {
+      "Options": {
+        "Label": "Kind",
+        "1": "Warlord",
+        "2": "Grotesque",
+        "3": "Affliction",
+        "4": "Brutes",
+        "5": "Landscape",
+        "6": "Terrain",
+        "7": "Vehicle"
+      }
+    },
+    "Impulse": {
+      "Label": "Impulse"
+    },
+    "Stake": {
+      "Label": "Stakes"
+    },
+    "ConnectedThreats": {
+      "Label": "Connected threats"
+    },
+    "Countdown": {
+      "Label": "Countdown",
+      "Description": ""
     }
   }
 }
