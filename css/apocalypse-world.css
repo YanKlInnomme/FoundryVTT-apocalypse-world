@@ -1,52 +1,52 @@
 /* Variables Foundry VTT */
 
-	:root {
-	--color-border-highlight:#1d8d13;
-	--color-border-highlight-alt:#2b6107;
-	--color-shadow-highlight:#1d8d13;
-	--color-shadow-primary:#2b6107;
-	--color-text-hyperlink:#1d4204;
-	--font-primary:Hack, sans-serif;
-	}
+:root {
+	--color-border-highlight: #1d8d13;
+	--color-border-highlight-alt: #2b6107;
+	--color-shadow-highlight: #1d8d13;
+	--color-shadow-primary: #2b6107;
+	--color-text-hyperlink: #1d4204;
+	--font-primary: Hack, sans-serif;
+}
 
 /* Polices d'écriture */
 
 @font-face {
-	font-family: "Dirtyego";
-  src: url("../fonts/dirtyego.woff2") format("woff2"), url("../fonts/dirtyego.woff") format("woff");
+	font-family: Dirtyego;
+  	src: url("../fonts/dirtyego.woff2") format("woff2"), url("../fonts/dirtyego.woff") format("woff");
 }
 
 @font-face {
-	font-family: "Hack";
-  src: url("../fonts/hack-regular.woff2") format("woff2"), url("../fonts/hack-regular.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
+	font-family: Hack;
+	src: url("../fonts/hack-regular.woff2") format("woff2"), url("../fonts/hack-regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
 }
 
 @font-face {
-	font-family: "Hack";
-  src: url("../fonts/hack-bold.woff2") format("woff2"), url("../fonts/hack-bold.woff") format("woff");
-  font-weight: 700;
-  font-style: normal;
+	font-family: Hack;
+	src: url("../fonts/hack-bold.woff2") format("woff2"), url("../fonts/hack-bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
 }
 
 @font-face {
-	font-family: "Hack";
-  src: url("../fonts/hack-italic.woff2") format("woff2"), url("../fonts/hack-italic.woff") format("woff");
-  font-weight: 400;
-  font-style: italic;
+	font-family: Hack;
+	src: url("../fonts/hack-italic.woff2") format("woff2"), url("../fonts/hack-italic.woff") format("woff");
+	font-weight: 400;
+	font-style: italic;
 }
 
 @font-face {
-	font-family: "Hack";
-  src: url("../fonts/hack-bolditalic.woff2") format("woff2"), url("../fonts/hack-bolditalic.woff") format("woff");
-  font-weight: 700;
-  font-style: italic;
+	font-family: Hack;
+	src: url("../fonts/hack-bolditalic.woff2") format("woff2"), url("../fonts/hack-bolditalic.woff") format("woff");
+	font-weight: 700;
+	font-style: italic;
 }
 
 @font-face {
 	font-family: "Propagan";
-  src: url("../fonts/propagan.woff2") format("woff2"), url("../fonts/propagan.woff") format("woff");
+	src: url("../fonts/propagan.woff2") format("woff2"), url("../fonts/propagan.woff") format("woff");
 }
 
 /* Logo Apocalypse World */
@@ -71,7 +71,7 @@
 }
 
 #pause {
-	font-family: "Dirtyego",sans-serif;
+	font-family: Dirtyego,sans-serif;
 	font-size: 40px;
 	top: 50%;
 	background: none;
@@ -116,7 +116,7 @@
 }
 
 #pause > figcaption {
-	color: var(--color-shadow-primary);
+	color: #1d8d13;
 	position: relative;
 	animation: noise-anim 1s steps(1) infinite;
 }
@@ -142,11 +142,52 @@ img {
 }
 
 .vtt .sidebar-tab {
-	font-family: "Hack",sans-serif;
+	font-family: Hack,sans-serif;
 }
 
 #chat-controls .control-buttons {
 	flex: 0 0 50px;
+}
+
+.vtt #chat-log .message.whisper {
+	background: #a8c496;
+}
+
+.vtt .window-header {
+	background: rgba(29, 66, 4, 0.75);
+    font-family: Hack, sans-serif;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+}
+
+.sheet.journal-entry .journal-sidebar {
+	background: rgba(29, 66, 4, 0.75);
+}
+
+h3.nue {
+    border-top: 2px groove #208D21;
+    border-bottom: 2px groove #208D21;
+}
+
+footer.nue {
+    border-top: 2px groove #208D21;
+}
+
+h1 {
+    border-bottom: 2px solid #208D21;
+}
+
+h3 {
+    border-bottom: 1px dotted #208D21;
+}
+
+.sheet.journal-entry .pages-list .directory-item {
+	border-top: none;
+	border-bottom: none;
+}
+
+.directory .directory-item {
+	border-top: none;
 }
 
 /* Fiche de personnage */
@@ -154,8 +195,6 @@ img {
 .profile-img {
 	background-color: #989898 !important;
 	position: relative;
-	height: 324px;
-	width: 200px;
 	border: none;
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 	transform: rotate(-5deg);
@@ -169,98 +208,111 @@ img {
 }
 
 .pbta {
-	font-family:Hack,sans-serif;
-	}
+	font-family: Hack,sans-serif;
+}
 	
-	.pbta.sheet .cell input[type=text] {
-	font-family:Hack,sans-serif;
+.pbta.sheet .cell input[type=text] {
+	font-family: Hack,sans-serif;
 	font-size:18px;
-	}
+}
 	
-	.pbta.sheet .cell--image {
+.pbta.sheet .cell--image {
 	background-color:#1d4204!important;
-	}
+}
 	
-	.pbta.sheet .cell--moves .item-icon {
+.pbta.sheet .cell--moves .item-icon {
 	background-color:#1d8d13!important;
 	border:none;
-	}
+}
 	
-	.pbta.sheet .cell__checkboxes label.flexrow,.pbta.sheet .cell__radio label.flexrow {
+.pbta.sheet .cell__checkboxes label.flexrow,.pbta.sheet .cell__radio label.flexrow {
 	font-size:11px;
-	}
+}
 	
-	.pbta.sheet .cell__description--attr {
+.pbta.sheet .cell__description--attr {
 	font-size:11px;
 	margin-top:-3px;
-	}
+}
 	
-	.pbta.sheet .cell__title {
+.pbta.sheet .cell__title {
 	border-bottom:2px dotted #1d8d13;
 	color:#1d8d13;
 	font-family:Dirtyego,sans-serif;
 	font-size:35px;
 	font-weight:100;
 	letter-spacing:-.5px;
-	}
+}
 	
-	.pbta.sheet .cell__title button {
+.pbta.sheet .cell__title button {
 	background:#1d8d13;
 	border:none;
-	}
+}
 	
-	.pbta.sheet .input,.pbta.sheet .input--title {
-	font-family:Hack,sans-serif;
-	}
+.pbta.sheet .input,.pbta.sheet .input--title {
+	font-family: Hack,sans-serif;
+}
 	
-	.pbta.sheet .input--title {
+.pbta.sheet .input--title {
 	font-weight:400;
-	}
+}
 	
-	.pbta.sheet .sheet-attributes .cell--stats .stat {
+.pbta.sheet .sheet-attributes .cell--stats .stat {
 	background:#1d8d13;
-	}
+}
 	
-	.pbta.sheet .sheet-attributes .cell--stats .stat .cell__title {
-	font-family:Dirtyego,sans-serif;
+.pbta.sheet .sheet-attributes .cell--stats .stat .cell__title {
+	font-family: Dirtyego,sans-serif;
 	font-size:50px;
 	font-weight:100;
-	}
+}
 	
-	.pbta.sheet .sheet-attributes .cell--stats .stat:hover {
+.pbta.sheet .sheet-attributes .cell--stats .stat:hover {
 	background:#000;
-	}
+}
 	
-	.pbta.sheet .sheet-wrapper .sheet-header {
+.pbta.sheet .sheet-wrapper .sheet-header {
 	max-height:none;
-	}
+}
 	
-	.pbta.sheet .tabs {
+.pbta.sheet .tabs {
 	border-bottom:2px solid #999;
-	}
+}
 	
-	.pbta.sheet .tabs .item {
-	font-family:Propagan, sans-serif;
+.pbta.sheet .tabs .item {
+	font-family: Propagan, sans-serif;
 	font-size:20px;
 	font-weight:300;
-	}
+}
 	
-	.pbta.sheet .tabs .item.active {
+.pbta.sheet .tabs .item.active {
 	color:#1d8d13;
-	}
+}
 	
-	.pbta.sheet label,.pbta.sheet h1,.pbta.sheet h2 {
-	font-family:Hack,sans-serif;
-	text-shadow:none;
-	}
-	
-	.pbta.sheet.npc .sheet-wrapper .sheet-top {
-	max-height:none;
-	}
+.pbta.sheet .item-label {
+	max-width: 400px;
+}
 
-	.pbta.sheet .item-label {
-		max-width: 400px;
-	}
+.pbta.sheet .sheet-wrapper .sheet-bottom .sheet-main .sheet-tabs.tabs {
+	max-height: 42px;
+}
+
+.pbta.sheet .tabs {
+	border-bottom: 2px solid #000000;
+}
+
+.pbta.sheet .cell__title {
+	margin: 10px 0 5px 0;
+	padding: 5px 5px 0 0;
+}
+
+.pbta.sheet label, .pbta.sheet h1, .pbta.sheet h2 {
+	font-family: Hack,sans-serif;
+	text-shadow: none;
+}
+
+.pbta.sheet .tabs {
+	height: 42px;
+}
 
 /* Journaux */
 
