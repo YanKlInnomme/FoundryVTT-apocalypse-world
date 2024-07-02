@@ -6,7 +6,7 @@
   "license": "LICENSE",
   "compatibility": {
     "minimum": "12",
-    "verified": "12.325",
+    "verified": "12.327",
     "maximum": "13"
   },
   "authors": [
@@ -93,6 +93,13 @@
       "type": "Scene",
       "system": "pbta",
       "path": "packs/scenes"
+    },
+    {
+      "label": "PDF sources",
+      "name": "pdf-sources",
+      "type": "JournalEntry",
+      "system": "pbta",
+      "path": "packs/pdf-sources"
     }
   ],
   "languages": [

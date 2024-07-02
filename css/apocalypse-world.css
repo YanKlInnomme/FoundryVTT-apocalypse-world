@@ -320,31 +320,3 @@ ol {
 	margin-left: 10px;
 }
 
-/* Webcams */
-
-div#camera-views {
-	--av-border-radius: 0;
-	--color-border-av-speaking: #fefefe;
-	--av-minimized-icon-size: 75px;
-}
-
-.camera-view .shadow {
-	box-shadow: rgba(0, 0, 0, 0.50) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.6) 0px 18px 36px -18px inset;
-	border-radius: 0;
-  }
-
-.camera-view .player-name {
-	background-color: rgba(52, 52, 52, 0.95);
-	/* box-shadow: 4px 4px 15px 2px rgba(0, 0, 0, 0.7); */
-	border: none;
-	border-radius: 15px;
-	color: #fefefe !important;
-}
-
-.camera-view.camera-box-dock {
-	filter: saturate(0.4);
-}
-
-.camera-view.speaking {
-	filter: none;
-}

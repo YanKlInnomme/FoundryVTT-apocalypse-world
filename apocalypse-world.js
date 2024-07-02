@@ -8,12 +8,37 @@ Hooks.on('init', () => {
     hint: game.i18n.localize("apocalypseWorld.Settings.Hint"),
     requiresReload: true
   });
+});
 
-  Babele?.get()?.register({
-    module: 'apocalypse-world',
-    lang: 'fr',
-    dir: 'compendium'
-  });
+Hooks.on('babele.init', () => {
+  if (game.babele) {
+    const lang = game.i18n.lang;
+    if (lang === 'fr') {
+      game.babele.register({
+        module: 'apocalypse-world',
+        lang: 'fr',
+        dir: 'compendium/fr'
+      });
+      console.log('Babele activé en français.');
+    } else if (lang === 'en') {
+      game.babele.register({
+        module: 'apocalypse-world',
+        lang: 'en',
+        dir: 'compendium/en'
+      });
+      console.log('Babele activated in English.');
+    } else {
+      console.log('Babele is inactive.');
+    }
+  }
+});
+
+Hooks.on("createActor", async (actor) => {
+  if (!actor.system.img || actor.system.img === "icons/svg/mystery-man.svg") {
+    await actor.update({
+      "img": "modules/apocalypse-world/img/icons/gas-mask.svg"
+    });
+  }
 });
 
 Hooks.on("renderSettings", (app, html) => {
@@ -36,7 +61,7 @@ Hooks.on("renderSettings", (app, html) => {
   };
 
   const createButton = (text, iconClass, url) => {
-    const button = $(`<button><i class="${iconClass}"></i> ${text} <sup><i class="fa-light fa-up-right-from-square"></i></sup></button>`);
+    const button = $(`<button><i class="${iconClass}"></i> ${text}</button>`);
     button.on("click", ev => {
       ev.preventDefault();
       window.open(url, "_blank");
@@ -50,15 +75,15 @@ Hooks.on("renderSettings", (app, html) => {
   };
 
   const title = game.i18n.localize(`APOCALYPSEWORLD.Links.Title`);
-  const lotdSection = $(`<h2>${title}</h2>`);
+  const lotdSection = $(`<h2>${title} <i class="fa-light fa-up-right-from-square"></i></h2>`);
   html.find("#settings-game").after(lotdSection);
 
   const lotdDiv = $(`<div></div>`);
   lotdSection.after(lotdDiv);
 
-  addLinkButton(lotdDiv, links.shop);
-  addLinkButton(lotdDiv, links.git);
-  addLinkButton(lotdDiv, links.donation);
+  Object.values(links).forEach(link => {
+    addLinkButton(lotdDiv, link);
+  });
 });
 
 Hooks.once('pbtaSheetConfig', () => {
@@ -110,8 +135,9 @@ Hooks.once('pbtaSheetConfig', () => {
     actorTypes: {
       character: {
         stats: Object.fromEntries(stats.map(stat => [stat.toLowerCase(), { label: game.i18n.localize(`APOCALYPSEWORLD.Stats.${stat}`), value: 0 }])),
-        attrTop: {
+        attributes: {
           harm: {
+            position: "Top",
             label: game.i18n.localize("APOCALYPSEWORLD.Harm.Label"),
             description: game.i18n.localize("APOCALYPSEWORLD.Harm.Description"),
             customLabel: false,
@@ -122,6 +148,7 @@ Hooks.once('pbtaSheetConfig', () => {
             steps: Array(6).fill(false)
           },
           harmConditions: {
+            position: "Top",
             label: game.i18n.localize("APOCALYPSEWORLD.Harm.Options.Label"),
             description: null,
             customLabel: false,
@@ -131,6 +158,7 @@ Hooks.once('pbtaSheetConfig', () => {
             options: Object.fromEntries(harmoptions.map(option => [option, { label: game.i18n.localize(`APOCALYPSEWORLD.Harm.Options.${option}`), value: false }])),
           },
           special: {
+            position: "Top",
             label: game.i18n.localize("APOCALYPSEWORLD.Special.Label"),
             description: null,
             customLabel: false,
@@ -139,6 +167,7 @@ Hooks.once('pbtaSheetConfig', () => {
             value: ""
           },
           hx: {
+            position: "Top",
             label: game.i18n.localize("APOCALYPSEWORLD.Hx.Label"),
             description: null,
             customLabel: false,
@@ -146,18 +175,8 @@ Hooks.once('pbtaSheetConfig', () => {
             type: "LongText",
             value: ""
           },
-        },
-        attrLeft: {
-          hold: {
-            label: game.i18n.localize("APOCALYPSEWORLD.Hold.Label"),
-            description: null,
-            customLabel: false,
-            userLabel: false,
-            type: "Resource",
-            value: 0,
-            max: 0
-          },
           armor: {
+            position: "Left",
             label: game.i18n.localize("APOCALYPSEWORLD.Armor.Label"),
             description: null,
             customLabel: false,
@@ -166,6 +185,7 @@ Hooks.once('pbtaSheetConfig', () => {
             value: 0
           },
           xp: {
+            position: "Left",
             label: game.i18n.localize("APOCALYPSEWORLD.XP.Label"),
             description: game.i18n.localize("APOCALYPSEWORLD.XP.Description"),
             customLabel: false,
@@ -176,6 +196,7 @@ Hooks.once('pbtaSheetConfig', () => {
             steps: Array(5).fill(false)
           },
           improvement: {
+            position: "Left",
             label: game.i18n.localize("APOCALYPSEWORLD.Improvement.Label"),
             description: null,
             customLabel: false,
@@ -184,6 +205,7 @@ Hooks.once('pbtaSheetConfig', () => {
             value: ""
           },
           look: {
+            position: "Left",
             label: game.i18n.localize("APOCALYPSEWORLD.Look.Label"),
             description: null,
             customLabel: false,
@@ -208,8 +230,9 @@ Hooks.once('pbtaSheetConfig', () => {
         equipmentTypes: Object.fromEntries(equipmenttypes.map(type => [type.toLowerCase(), { label: game.i18n.localize(`APOCALYPSEWORLD.EquipmentTypes.${type}`), mouvements: [] }]))
       },
       npc: {
-        attrTop: {
+        attributes: {
           impulse: {
+            position: "Top",
             label: game.i18n.localize("APOCALYPSEWORLD.Impulse.Label"),
             description: null,
             customLabel: false,
@@ -218,6 +241,7 @@ Hooks.once('pbtaSheetConfig', () => {
             value: ""
           },
           stake: {
+            position: "Top",
             label: game.i18n.localize("APOCALYPSEWORLD.Stake.Label"),
             description: null,
             customLabel: false,
@@ -226,16 +250,16 @@ Hooks.once('pbtaSheetConfig', () => {
             value: ""
           },
           connectedthreats: {
+            position: "Top",
             label: game.i18n.localize("APOCALYPSEWORLD.ConnectedThreats.Label"),
             description: null,
             customLabel: false,
             userLabel: false,
             type: "LongText",
             value: ""
-          }
-        },
-        attrLeft: {
+          },
           countdown: {
+            position: "Left",
             label: game.i18n.localize("APOCALYPSEWORLD.Countdown.Label"),
             description: null,
             customLabel: false,
@@ -245,6 +269,7 @@ Hooks.once('pbtaSheetConfig', () => {
             max: 0
           },
           kind: {
+            position: "Left",
             label: game.i18n.localize("APOCALYPSEWORLD.Kind.Options.Label"),
             description: null,
             customLabel: false,
